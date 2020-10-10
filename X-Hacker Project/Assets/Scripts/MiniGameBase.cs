@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 [CreateAssetMenu]
-public class MiniGameBase : ScriptableObject
+public abstract class MiniGameBase : ScriptableObject
 {
     /*
         All Mini-Games must inherit from this script
@@ -9,28 +9,15 @@ public class MiniGameBase : ScriptableObject
         
         -Brandon
     */
-    public virtual void StartMiniGame()
-    {
-        
-    }
+    
+    //Function should be called to start the mini-game. Think of it as Start() but you have to call it
+    public abstract void StartMiniGame();
 
-    public virtual void CloseMiniGame()
-    {
-        
-    }
+    public abstract void CloseMiniGame();
 
-    public virtual void Objective()
-    {
-        
-    }
+    public abstract void Objective();
 
-    public virtual void Success()
-    {
-        
-    }
+    public abstract void Success();
 
-    public virtual void Difficulty()
-    {
-        
-    }
+    public abstract void Difficulty();
 }
