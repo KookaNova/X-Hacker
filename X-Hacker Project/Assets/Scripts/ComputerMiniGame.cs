@@ -5,7 +5,7 @@ using UnityEngine.Events;
 public class ComputerMiniGame : MiniGameBase
 {
     private int buttonPresses;
-    public UnityEvent successEvent;
+    public UnityEvent successEvent, resetEvent;
     public override void StartMiniGame()
     {
         Debug.Log("Computer mini-game started");
@@ -27,5 +27,11 @@ public class ComputerMiniGame : MiniGameBase
     public override void ResetMiniGame()
     {
         buttonPresses = 0;
+        resetEvent.Invoke();
+    }
+
+    public void IncreaseCount()
+    {
+        buttonPresses++;
     }
 }

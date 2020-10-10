@@ -9,11 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6556a57e9910de348a07089cb0fd4b1e, type: 3}
-  m_Name: Printer Mini-Game
+  m_Script: {fileID: 11500000, guid: 1da2542f10e37b0468a243ccbcbcd8b9, type: 3}
+  m_Name: ComputerMini-Game
   m_EditorClassIdentifier: 
-  cablePosition: {fileID: 11400000, guid: 0dbf2139e1e9fa64cbde88c711316eb0, type: 2}
-  originalPosition: {fileID: 11400000, guid: bb4e762aaec076b498507719d57b54fb, type: 2}
   successEvent:
     m_PersistentCalls:
       m_Calls:
