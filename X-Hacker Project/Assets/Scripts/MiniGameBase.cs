@@ -18,4 +18,6 @@ public abstract class MiniGameBase : ScriptableObject
     public abstract void Success();
 
     public abstract void Difficulty();
+
+    public abstract void ResetMiniGame();
 }
