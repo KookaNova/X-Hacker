@@ -6,23 +6,9 @@ public class MiniGameBehavior : MonoBehaviour
     public MiniGameBase miniGame;
     public UnityEvent deactivateEvent;
     
-    public GameAction gameActionObj;
-    public UnityEvent handlerEvent;
-    
-    public void OnEnable()
+    public void Start()
     {
-        gameActionObj.action += Action;
         miniGame.StartMiniGame();
-    }
-    
-    private void OnDisable()
-    {
-        gameActionObj.action -= Action;
-    }
-
-    private void Action()
-    {
-        handlerEvent.Invoke();
     }
 
     public void Update()
@@ -31,6 +17,11 @@ public class MiniGameBehavior : MonoBehaviour
         {
             CloseMiniGame();
         }
+    }
+
+    public void FixedUpdate()
+    {
+        miniGame.Success();
     }
 
     public void CloseMiniGame()

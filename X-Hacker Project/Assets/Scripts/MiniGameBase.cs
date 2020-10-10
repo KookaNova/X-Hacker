@@ -13,8 +13,6 @@ public abstract class MiniGameBase : ScriptableObject
     //Function should be called to start the mini-game. Think of it as Start() but you have to call it
     public abstract void StartMiniGame();
 
-    public abstract void Objective();
-
     public abstract void Success();
 
     public abstract void Difficulty();
