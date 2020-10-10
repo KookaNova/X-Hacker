@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.EventSystems;
 
 [RequireComponent(typeof(BoxCollider))]
@@ -10,6 +11,11 @@ public class DragDropUIBehavior : MonoBehaviour, IPointerDownHandler, IPointerUp
     public void Start()
     {
         collider = GetComponent<BoxCollider>();
+    }
+
+    public void OnDisable()
+    {
+        dragging = false;
     }
 
     public void FixedUpdate()
