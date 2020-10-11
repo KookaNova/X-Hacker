@@ -4,7 +4,7 @@ using UnityEngine.Events;
 public class MiniGameBehavior : MonoBehaviour
 {
     public MiniGameBase miniGame;
-    public UnityEvent deactivateEvent;
+    public UnityEvent deactivateEvent, closeMiniGameEvent;
     
     public void Start()
     {
@@ -27,7 +27,7 @@ public class MiniGameBehavior : MonoBehaviour
     public void CloseMiniGame()
     {
         miniGame.ResetMiniGame();
-        gameObject.SetActive(false);
+        closeMiniGameEvent.Invoke();
     }
     
     public void DeactivateDevice()
