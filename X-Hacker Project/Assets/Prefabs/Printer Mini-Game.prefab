@@ -445,6 +445,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b9d12801fa47ae4cadad42608d754e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xAxis: 1
+  yAxis: 0
 --- !u!65 &96249599990122986
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -677,6 +679,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b9d12801fa47ae4cadad42608d754e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xAxis: 1
+  yAxis: 1
 --- !u!65 &2124131077793396244
 BoxCollider:
   m_ObjectHideFlags: 0
