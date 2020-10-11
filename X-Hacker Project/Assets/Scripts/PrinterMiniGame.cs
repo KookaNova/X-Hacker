@@ -9,7 +9,7 @@ public class PrinterMiniGame : MiniGameBase
     
     public override void StartMiniGame()
     {
-        Debug.Log("start printer mini game debug text");
+        
     }
 
     public override void Success()

@@ -9,7 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ad20deed93b1744a918e627abea3cda, type: 3}
-  m_Name: CablePosition
+  m_Script: {fileID: 11500000, guid: db74599ea8f04b140b2558b961113f52, type: 3}
+  m_Name: Printer Mini-Game2Action
   m_EditorClassIdentifier: 
-  data: {x: 545.33075, y: 278.7725, z: 0}
