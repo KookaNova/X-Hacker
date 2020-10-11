@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 [CreateAssetMenu]
-public class FloatData : ScriptableObject
+public class FloatDataSO : ScriptableObject
 {
     public float value;
    
@@ -19,15 +19,15 @@ public class FloatData : ScriptableObject
         value ++;
     }
    
-    public void UpdateValue(FloatData data)
+    public void UpdateValue(FloatDataSO data)
     {
-        var newData = data as FloatData;
+        var newData = data as FloatDataSO;
         if (newData != null) value += newData.value;
     }
 
-    public void SetValue(FloatData data)
+    public void SetValue(FloatDataSO data)
     {
-        var newData = data as FloatData;
+        var newData = data as FloatDataSO;
         if (newData != null) value = newData.value;
     }
     

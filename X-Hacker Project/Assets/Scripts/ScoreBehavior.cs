@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class ScoreBehavior : MonoBehaviour
 {
-    public FloatData score;
+    public FloatDataSO score;
     public Text scoreText;
 
     private void Update()
