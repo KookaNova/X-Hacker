@@ -11,7 +11,7 @@ public class CounterBehavior : MonoBehaviour
     public int Value = 0, MaxValue = 1000;
     //1000 seconds is approximately 16 minutes to complete the objective. More than enough.
     public float WaitTime = 1;
-    public FloatDataSO timeElapsed;
+    public FloatDataSO countedObj;
 
     public void StartCounter()
     {
@@ -22,12 +22,12 @@ public class CounterBehavior : MonoBehaviour
     {
         var waitObject = new WaitForSeconds(WaitTime);
         
-        while (Value > MaxValue)
+        while (Value < MaxValue)
         {
             yield return waitObject;
             OnCountEvent.Invoke();
             Value++;
-            timeElapsed.UpdateValue(1);
+            countedObj.UpdateValue(1);
         }
 
         yield return waitObject;
