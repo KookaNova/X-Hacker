@@ -20,11 +20,6 @@ public class PrinterMiniGame : MiniGameBase
         }
     }
 
-    public override void Difficulty()
-    {
-        throw new System.NotImplementedException();
-    }
-
     public override void ResetMiniGame()
     {
         Debug.Log("mini game reset");

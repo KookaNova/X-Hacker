@@ -19,11 +19,6 @@ public class ComputerMiniGame : MiniGameBase
         }
     }
 
-    public override void Difficulty()
-    {
-        throw new System.NotImplementedException();
-    }
-
     public override void ResetMiniGame()
     {
         buttonPresses = 0;
