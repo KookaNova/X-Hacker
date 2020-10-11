@@ -7,6 +7,7 @@ public class DragDropUIBehavior : MonoBehaviour, IPointerDownHandler, IPointerUp
 {
     private BoxCollider collider;
     private bool dragging;
+    public bool xAxis, yAxis; //Any bool that is true can be dragged on that axis
 
     public void Start()
     {
@@ -22,7 +23,20 @@ public class DragDropUIBehavior : MonoBehaviour, IPointerDownHandler, IPointerUp
     {
         if (dragging)
         {
-            transform.position = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+            if (xAxis && !yAxis)
+            {
+                transform.position = new Vector2(Input.mousePosition.x, transform.position.y);
+            }
+
+            if (!xAxis && yAxis)
+            {
+                transform.position = new Vector2(transform.position.x, Input.mousePosition.y);
+            }
+
+            if (xAxis && yAxis)
+            {
+                transform.position = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+            }
         }
     }
 
