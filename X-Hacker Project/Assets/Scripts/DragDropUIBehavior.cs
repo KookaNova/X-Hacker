@@ -7,7 +7,8 @@ public class DragDropUIBehavior : MonoBehaviour, IPointerDownHandler, IPointerUp
 {
     private BoxCollider collider;
     private bool dragging;
-    public Vector3 originalPosition;
+    private Vector3 originalPosition;
+    private Vector2 offset;
     public bool xAxis, yAxis; //Any bool that is true can be dragged on that axis
     public float limitXMin, limitXMax, limitYMin, limitYMax; //these limit how far the object can be dragged in their respective axis, 0 means its original position
 
@@ -28,15 +29,15 @@ public class DragDropUIBehavior : MonoBehaviour, IPointerDownHandler, IPointerUp
         {
             if (xAxis && !yAxis)
             {
-                transform.position = new Vector2(Mathf.Clamp(Input.mousePosition.x, originalPosition.x + limitXMin, originalPosition.x + limitXMax), transform.position.y);
+                transform.position = new Vector2(Mathf.Clamp(Input.mousePosition.x - offset.x, originalPosition.x + limitXMin, originalPosition.x + limitXMax), transform.position.y);
             }
             else if (!xAxis && yAxis)
             {
-                transform.position = new Vector2(transform.position.x, Mathf.Clamp(Input.mousePosition.y, originalPosition.y + limitYMin, originalPosition.y + limitYMax));
+                transform.position = new Vector2(transform.position.x, Mathf.Clamp(Input.mousePosition.y - offset.y, originalPosition.y + limitYMin, originalPosition.y + limitYMax));
             }
             else if (xAxis && yAxis)
             {
-                transform.position = new Vector2(Mathf.Clamp(Input.mousePosition.x, originalPosition.x + limitXMin, originalPosition.x + limitXMax), Mathf.Clamp(Input.mousePosition.y, originalPosition.y + limitYMin, originalPosition.y + limitYMax));
+                transform.position = new Vector2(Mathf.Clamp(Input.mousePosition.x - offset.x, originalPosition.x + limitXMin, originalPosition.x + limitXMax), Mathf.Clamp(Input.mousePosition.y - offset.y, originalPosition.y + limitYMin, originalPosition.y + limitYMax));
             }
         }
     }
@@ -44,6 +45,8 @@ public class DragDropUIBehavior : MonoBehaviour, IPointerDownHandler, IPointerUp
     public void OnPointerDown(PointerEventData eventData) //Lets us use the cursor on UI elements
     {
         dragging = true;
+        offset.x = Input.mousePosition.x - transform.position.x;
+        offset.y = Input.mousePosition.y - transform.position.y;
     }
     
     public void OnPointerUp(PointerEventData eventData)

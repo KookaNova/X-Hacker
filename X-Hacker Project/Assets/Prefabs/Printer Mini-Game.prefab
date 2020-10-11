@@ -460,7 +460,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b9d12801fa47ae4cadad42608d754e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  originalPosition: {x: 0, y: 0, z: 0}
   xAxis: 1
   yAxis: 0
   limitXMin: -100
@@ -699,8 +698,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b9d12801fa47ae4cadad42608d754e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  originalPosition: {x: 0, y: 0, z: 0}
-  xAxis: 1
+  xAxis: 0
   yAxis: 1
   limitXMin: 0
   limitXMax: 0
