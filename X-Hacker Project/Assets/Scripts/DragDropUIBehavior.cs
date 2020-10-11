@@ -7,10 +7,14 @@ public class DragDropUIBehavior : MonoBehaviour, IPointerDownHandler, IPointerUp
 {
     private BoxCollider collider;
     private bool dragging;
+    public Vector3 originalPosition;
+    public bool xAxis, yAxis; //Any bool that is true can be dragged on that axis
+    public float limitXMin, limitXMax, limitYMin, limitYMax; //these limit how far the object can be dragged in their respective axis, 0 means its original position
 
     public void Start()
     {
         collider = GetComponent<BoxCollider>();
+        originalPosition = transform.position;
     }
 
     public void OnDisable()
@@ -22,7 +26,18 @@ public class DragDropUIBehavior : MonoBehaviour, IPointerDownHandler, IPointerUp
     {
         if (dragging)
         {
-            transform.position = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+            if (xAxis && !yAxis)
+            {
+                transform.position = new Vector2(Mathf.Clamp(Input.mousePosition.x, originalPosition.x + limitXMin, originalPosition.x + limitXMax), transform.position.y);
+            }
+            else if (!xAxis && yAxis)
+            {
+                transform.position = new Vector2(transform.position.x, Mathf.Clamp(Input.mousePosition.y, originalPosition.y + limitYMin, originalPosition.y + limitYMax));
+            }
+            else if (xAxis && yAxis)
+            {
+                transform.position = new Vector2(Mathf.Clamp(Input.mousePosition.x, originalPosition.x + limitXMin, originalPosition.x + limitXMax), Mathf.Clamp(Input.mousePosition.y, originalPosition.y + limitYMin, originalPosition.y + limitYMax));
+            }
         }
     }
 

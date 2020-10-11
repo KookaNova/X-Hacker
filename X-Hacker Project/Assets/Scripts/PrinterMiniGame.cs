@@ -9,7 +9,7 @@ public class PrinterMiniGame : MiniGameBase
     
     public override void StartMiniGame()
     {
-        Debug.Log("start printer mini game debug text");
+        
     }
 
     public override void Success()
@@ -18,11 +18,6 @@ public class PrinterMiniGame : MiniGameBase
         {
             successEvent.Invoke();
         }
-    }
-
-    public override void Difficulty()
-    {
-        throw new System.NotImplementedException();
     }
 
     public override void ResetMiniGame()

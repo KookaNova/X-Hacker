@@ -4,11 +4,11 @@ using UnityEngine.Events;
 [CreateAssetMenu(menuName = "Mini-Games/Computer")]
 public class ComputerMiniGame : MiniGameBase
 {
-    private int buttonPresses;
+    public int buttonPresses;
     public UnityEvent successEvent, resetEvent;
     public override void StartMiniGame()
     {
-        Debug.Log("Computer mini-game started");
+        buttonPresses = 0;
     }
 
     public override void Success()
@@ -17,11 +17,6 @@ public class ComputerMiniGame : MiniGameBase
         {
             successEvent.Invoke();
         }
-    }
-
-    public override void Difficulty()
-    {
-        throw new System.NotImplementedException();
     }
 
     public override void ResetMiniGame()
