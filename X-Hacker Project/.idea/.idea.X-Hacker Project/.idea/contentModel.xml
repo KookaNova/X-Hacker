@@ -8,6 +8,8 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="ComputerMiniGame.cs" t="Include" />
+          <e p="CounterBehavior.cs" t="Include" />
+          <e p="DataDisplayBehavior.cs" t="Include" />
           <e p="DeviceInteractionBehavior.cs" t="Include" />
           <e p="DragDropUIBehavior.cs" t="Include" />
           <e p="EventsBehavior.cs" t="Include" />
@@ -21,7 +23,6 @@
           <e p="PauseBehavior.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="PrinterMiniGame.cs" t="Include" />
-          <e p="ScoreBehavior.cs" t="Include" />
           <e p="Vector3SO.cs" t="Include" />
         </e>
       </e>
