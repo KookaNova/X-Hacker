@@ -11,6 +11,7 @@
           <e p="CounterBehavior.cs" t="Include" />
           <e p="CursorSO.cs" t="Include" />
           <e p="DataDisplayBehavior.cs" t="Include" />
+          <e p="DestroyonExit.cs" t="Include" />
           <e p="DeviceInteractionBehavior.cs" t="Include" />
           <e p="DialogObj.cs" t="Include" />
           <e p="DialogSystem.cs" t="Include" />
