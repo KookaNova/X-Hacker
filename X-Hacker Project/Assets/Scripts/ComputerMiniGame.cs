@@ -8,7 +8,7 @@ public class ComputerMiniGame : MiniGameBase
     public UnityEvent successEvent, resetEvent;
     public override void StartMiniGame()
     {
-        buttonPresses = 0;
+        ResetCount();
     }
 
     public override void Success()
@@ -21,12 +21,17 @@ public class ComputerMiniGame : MiniGameBase
 
     public override void ResetMiniGame()
     {
-        buttonPresses = 0;
+        ResetCount();
         resetEvent.Invoke();
     }
 
     public void IncreaseCount()
     {
         buttonPresses++;
+    }
+
+    public void ResetCount()
+    {
+        buttonPresses = 0;
     }
 }
