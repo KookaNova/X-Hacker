@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 5094256620480662187}
   - component: {fileID: 7531608909798110586}
   - component: {fileID: 5436638040365550113}
+  - component: {fileID: 4370411464219534705}
   m_Layer: 5
   m_Name: Computer Mini-Game
   m_TagString: Untagged
@@ -271,6 +272,36 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &4370411464219534705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110424324985073122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f86a759eb59d7054fb30921037416750, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 0a63e4893abe0a241b5d5be2306d5545, type: 2}
+        m_TargetAssemblyTypeName: Vector3SO, Assembly-CSharp
+        m_MethodName: UpdateData
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 3488501891424814595}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  fixedUpdateEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1179091391777242149
 GameObject:
   m_ObjectHideFlags: 0
@@ -834,7 +865,6 @@ GameObject:
   - component: {fileID: 3488501891424814595}
   - component: {fileID: 8731255123921688582}
   - component: {fileID: 1554400113533476229}
-  - component: {fileID: 4826032784392470573}
   - component: {fileID: 2692779543657380860}
   - component: {fileID: 7486181443009084281}
   m_Layer: 5
@@ -902,36 +932,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &4826032784392470573
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4863828052322507271}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f86a759eb59d7054fb30921037416750, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: 0a63e4893abe0a241b5d5be2306d5545, type: 2}
-        m_TargetAssemblyTypeName: Vector3SO, Assembly-CSharp
-        m_MethodName: UpdateData
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 3488501891424814595}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  fixedUpdateEvent:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!65 &2692779543657380860
 BoxCollider:
   m_ObjectHideFlags: 0
