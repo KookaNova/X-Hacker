@@ -9,6 +9,7 @@
         <e p="Scripts" t="Include">
           <e p="ComputerMiniGame.cs" t="Include" />
           <e p="CounterBehavior.cs" t="Include" />
+          <e p="CursorSO.cs" t="Include" />
           <e p="DataDisplayBehavior.cs" t="Include" />
           <e p="DeviceInteractionBehavior.cs" t="Include" />
           <e p="DialogObj.cs" t="Include" />
