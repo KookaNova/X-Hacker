@@ -17,7 +17,7 @@ MonoBehaviour:
   successEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: b4b8193ad674de44cad25998226d2b17, type: 2}
+      - m_Target: {fileID: 11400000, guid: f90b39aba54f93e41bceb24a7d97ef09, type: 2}
         m_TargetAssemblyTypeName: GameAction, Assembly-CSharp
         m_MethodName: Raise
         m_Mode: 1
@@ -29,7 +29,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: f90b39aba54f93e41bceb24a7d97ef09, type: 2}
+      - m_Target: {fileID: 11400000, guid: b4b8193ad674de44cad25998226d2b17, type: 2}
         m_TargetAssemblyTypeName: GameAction, Assembly-CSharp
         m_MethodName: Raise
         m_Mode: 1
