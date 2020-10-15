@@ -92,6 +92,7 @@ GameObject:
   - component: {fileID: 96249599686340461}
   - component: {fileID: 1703552165547074572}
   - component: {fileID: 1706541808}
+  - component: {fileID: 735525245246567430}
   m_Layer: 5
   m_Name: Printer Mini-Game
   m_TagString: Untagged
@@ -394,6 +395,36 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &735525245246567430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96249599686340468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f86a759eb59d7054fb30921037416750, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: bb7f1cbde42af924481723a73538e09a, type: 2}
+        m_TargetAssemblyTypeName: Vector3SO, Assembly-CSharp
+        m_MethodName: UpdateData
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 765661690007327451}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  fixedUpdateEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &96249599990122998
 GameObject:
   m_ObjectHideFlags: 0
