@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class DataDisplayBehavior : MonoBehaviour
@@ -8,6 +9,6 @@ public class DataDisplayBehavior : MonoBehaviour
 
     private void Update()
     {
-        dataText.text = "" + floatData.value;
+        dataText.text = floatData.value.ToString("####.##");
     }
 }
