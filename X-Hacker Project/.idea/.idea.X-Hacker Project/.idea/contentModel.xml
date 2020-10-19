@@ -21,6 +21,7 @@
           <e p="DialogSystem.cs" t="Include" />
           <e p="DragDropUIBehavior.cs" t="Include" />
           <e p="EventsBehavior.cs" t="Include" />
+          <e p="FloatCompareEvent.cs" t="Include" />
           <e p="FloatDataSO.cs" t="Include" />
           <e p="GameAction.cs" t="Include" />
           <e p="GameActionHandler.cs" t="Include" />
