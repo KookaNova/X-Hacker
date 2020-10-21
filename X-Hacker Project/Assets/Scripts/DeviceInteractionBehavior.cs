@@ -85,4 +85,12 @@ public class DeviceInteractionBehavior : MonoBehaviour
                 playerInRange = false;
             }
         }
+
+        public void MiniGameDisable()
+        {
+            if (miniGameActive)
+            {
+                miniGameActive = false;
+            }
+        }
 }
