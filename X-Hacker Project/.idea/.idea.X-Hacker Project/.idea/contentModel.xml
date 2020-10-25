@@ -1,21 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\conno\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\conno\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_X-Hacker Project.1095389631.00" t="ExcludeRecursive" />
-    <e p="C:\Users\conno\Repositories\X-Hacker\X-Hacker Project" t="IncludeRecursive">
+    <e p="C:\Users\dallon\AppData\local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\dallon\AppData\local\JetBrains\Rider2020.2\resharper-host\local\Transient\Rider\v202\SolutionCaches\_X-Hacker Project.-420961717.00" t="ExcludeRecursive" />
+    <e p="C:\Users\dallon\Desktop\Kraken\Fall202CoronaLand\2020Fall\X-Hacker\X-Hacker Project" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="ComputerMiniGame.cs" t="Include" />
+          <e p="CounterBehavior.cs" t="Include" />
+          <e p="DataDisplayBehavior.cs" t="Include" />
+          <e p="DestroyonExit.cs" t="Include" />
+          <e p="DeviceInteractionBehavior.cs" t="Include" />
+          <e p="DialogObj.cs" t="Include" />
+          <e p="DialogSystem.cs" t="Include" />
+          <e p="DragDropUIBehavior.cs" t="Include" />
+          <e p="EventsBehavior.cs" t="Include" />
+          <e p="FloatDataSO.cs" t="Include" />
+          <e p="GameAction.cs" t="Include" />
+          <e p="GameActionHandler.cs" t="Include" />
+          <e p="IDBehavior.cs" t="Include" />
+          <e p="IDSO.cs" t="Include" />
+          <e p="MiniGameBase.cs" t="Include" />
+          <e p="MiniGameBehavior.cs" t="Include" />
+          <e p="PauseBehavior.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
+          <e p="PrinterMiniGame.cs" t="Include" />
+          <e p="Vector3SO.cs" t="Include" />
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+            <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+            <e p="TMP_Bitmap.shader" t="Include" />
+            <e p="TMP_SDF Overlay.shader" t="Include" />
+            <e p="TMP_SDF SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+            <e p="TMP_SDF-Mobile SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface.shader" t="Include" />
+            <e p="TMP_SDF.shader" t="Include" />
+            <e p="TMP_Sprite.shader" t="Include" />
+            <e p="TMPro.cginc" t="Include" />
+            <e p="TMPro_Mobile.cginc" t="Include" />
+            <e p="TMPro_Properties.cginc" t="Include" />
+            <e p="TMPro_Surface.cginc" t="Include" />
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+          </e>
         </e>
       </e>
-      <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="Temp" t="ExcludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-      </e>
+      <e p="Temp\bin" t="ExcludeRecursive" />
       <e p="X-Hacker Project.sln" t="IncludeFlat" />
     </e>
   </component>
