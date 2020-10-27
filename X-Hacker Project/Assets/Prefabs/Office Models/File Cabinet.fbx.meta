@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< feature/GrayBoxDevelopment
 guid: e7a92783905d531439a23af0bde4dcdd
+=======
+guid: a6bad1332f9cc8241bf7610ae51c97eb
+>>>>>>> file cabinet meta file
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable: []
