@@ -19,24 +19,22 @@ public class TaskHolder : MonoBehaviour
 
     private void CreateTaskList()
     {
-        for (int i = 0; i <= taskList.Count; i++)
+        for (int i = 0; i < taskList.Count; i++)
         {
             if (taskList[i].complete == true)
             {
                 totalCompleted = totalCompleted + 1;
-                _taskText.text = _taskText.text + i + ". " + taskList[i].description + " Complete " + "\n";
+                _taskText.text = _taskText.text + (i+1) + ". " + taskList[i].description + " Complete " + "\n";
             }
             else
             {
-                _taskText.text = _taskText.text + i + ". " + taskList[i].description + "\n";
+                _taskText.text = _taskText.text + (i+1) + ". " + taskList[i].description + "\n";
             }
 
             if (totalCompleted == taskList.Count)
             {
                 allTasksCompleted = true;
             }
-            
         }
     }
-
 }
