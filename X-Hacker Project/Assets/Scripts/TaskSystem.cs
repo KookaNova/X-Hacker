@@ -1,14 +1,14 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(Text))]
 public class TaskSystem : MonoBehaviour
 {
-    
+    public UnityEvent allTaskCompleteEvent;
     public List<TaskDataSO> taskList;
     public int totalCompleted;
-    public bool allTasksCompleted = false;
     private Text _taskText;
 
     public void Start()
@@ -55,7 +55,7 @@ public class TaskSystem : MonoBehaviour
 
             if (totalCompleted == taskList.Count)
             {
-                allTasksCompleted = true;
+                allTaskCompleteEvent.Invoke();
             }
         }
     }
