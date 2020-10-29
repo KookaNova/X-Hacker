@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(Text))]
-public class TaskHolder : MonoBehaviour
+public class TaskSystem : MonoBehaviour
 {
+    
     public List<TaskDataSO> taskList;
     public int totalCompleted;
     public bool allTasksCompleted = false;

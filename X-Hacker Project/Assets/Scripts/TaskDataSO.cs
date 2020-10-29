@@ -7,9 +7,8 @@ public class TaskDataSO : ScriptableObject
 {
     [TextArea(10,10)] 
     public string description;
-
-    public int completedSteps = 0;
-    public int totalSteps = 1;
+    
+    public int completedSteps = 0, totalSteps = 1;
     public bool complete = false;
     
     public void SetValue (int amount)

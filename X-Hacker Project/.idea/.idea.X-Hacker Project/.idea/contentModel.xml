@@ -34,8 +34,7 @@
           <e p="PrinterMiniGame.cs" t="Include" />
           <e p="SceneController.cs" t="Include" />
           <e p="TaskDataSO.cs" t="Include" />
-          <e p="TaskHolder.cs" t="Include" />
-          <e p="UpdateTaskList.cs" t="Include" />
+          <e p="TaskSystem.cs" t="Include" />
           <e p="Vector3SO.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
