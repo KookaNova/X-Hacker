@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fd5e16d9df536c4abee8425711ab0d6, type: 3}
   m_Name: Task1 S2 Computers
   m_EditorClassIdentifier: 
-  description: 
+  description: Check all the computers for supsicious software.
   completedSteps: 0
-  totalSteps: 1
+  totalSteps: 3
   complete: 0

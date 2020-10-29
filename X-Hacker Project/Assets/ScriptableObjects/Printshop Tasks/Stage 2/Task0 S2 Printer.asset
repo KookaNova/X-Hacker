@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fd5e16d9df536c4abee8425711ab0d6, type: 3}
   m_Name: Task0 S2 Printer
   m_EditorClassIdentifier: 
-  description: 
+  description: Uh oh, all the printers are going crazy!
   completedSteps: 0
-  totalSteps: 1
+  totalSteps: 3
   complete: 0

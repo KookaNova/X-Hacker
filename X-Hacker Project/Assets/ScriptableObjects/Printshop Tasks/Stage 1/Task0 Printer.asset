@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fd5e16d9df536c4abee8425711ab0d6, type: 3}
   m_Name: Task0 Printer
   m_EditorClassIdentifier: 
-  description: Quick! Shut down the printer!
-  completedSteps: 3
-  totalSteps: 3
+  description: Something is wrong. Shut down the printer!
+  completedSteps: 0
+  totalSteps: 1
   complete: 0
