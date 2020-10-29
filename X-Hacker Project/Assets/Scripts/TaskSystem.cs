@@ -8,8 +8,10 @@ public class TaskSystem : MonoBehaviour
 {
     public UnityEvent allTaskCompleteEvent;
     public List<TaskDataSO> taskList;
-    public int totalCompleted;
+    
     private Text _taskText;
+    private int _totalTasks;
+    private int _completedTasks;
 
     public void Start()
     {
@@ -19,7 +21,8 @@ public class TaskSystem : MonoBehaviour
             t.completedSteps = 0;
             t.complete = false;
         }
-        
+
+        _totalTasks = taskList.Count;
         CreateTaskList();
     }
 
@@ -29,17 +32,25 @@ public class TaskSystem : MonoBehaviour
         
         for (int i = 0; i < taskList.Count; i++)
         {
+            
             //checks if all steps are complete
             if (taskList[i].completedSteps == taskList[i].totalSteps)
             {
                 taskList[i].complete = true;
             }
             
-            //checks if task is complete
+            //checks if task is complete, updates completed task list accurately
             if (taskList[i].complete == true)
             {
-                totalCompleted = totalCompleted + 1;
+                _completedTasks = 0;
+                foreach (var j in taskList)
+                {
+                    if (j.complete == true)
+                        _completedTasks++;
+
+                }
                 _taskText.text = _taskText.text + (i+1) + ". " + taskList[i].description + " COMPLETE " + "\n";
+
             }
             else
             {
@@ -53,7 +64,7 @@ public class TaskSystem : MonoBehaviour
                 
             }
 
-            if (totalCompleted == taskList.Count)
+            if ( _completedTasks == _totalTasks)
             {
                 allTaskCompleteEvent.Invoke();
             }
