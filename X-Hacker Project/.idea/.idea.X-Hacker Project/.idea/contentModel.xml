@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Brandon\AppData\local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Brandon\AppData\local\JetBrains\Rider2020.2\resharper-host\local\Transient\Rider\v202\SolutionCaches\_X-Hacker Project.225109658.00" t="ExcludeRecursive" />
-    <e p="F:\Fall 2020\X-Hacker\X-Hacker Project" t="IncludeRecursive">
+    <e p="C:\Users\conno\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\conno\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_X-Hacker Project.1095389631.00" t="ExcludeRecursive" />
+    <e p="C:\Users\conno\Repositories\X-Hacker\X-Hacker Project" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
@@ -17,8 +17,8 @@
           </e>
           <e p="DestroyonExit.cs" t="Include" />
           <e p="DeviceInteractionBehavior.cs" t="Include" />
-          <e p="DialogObj.cs" t="Include" />
-          <e p="DialogSystem.cs" t="Include" />
+          <e p="DialogueSO.cs" t="Include" />
+          <e p="DialogueSystem.cs" t="Include" />
           <e p="DragDropUIBehavior.cs" t="Include" />
           <e p="EventsBehavior.cs" t="Include" />
           <e p="FloatCompareEvent.cs" t="Include" />
@@ -33,6 +33,7 @@
           <e p="PlayerMovement.cs" t="Include" />
           <e p="PrinterMiniGame.cs" t="Include" />
           <e p="SceneController.cs" t="Include" />
+          <e p="SpeakerBehavior.cs" t="Include" />
           <e p="TaskDataSO.cs" t="Include" />
           <e p="TaskSystem.cs" t="Include" />
           <e p="TextReplacementBehavior.cs" t="Include" />
@@ -71,9 +72,12 @@
           </e>
         </e>
       </e>
+      <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
       <e p="X-Hacker Project.sln" t="IncludeFlat" />
     </e>
   </component>

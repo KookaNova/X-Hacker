@@ -1,11 +1,11 @@
 ﻿using UnityEngine; 
  
 [RequireComponent(typeof(CharacterController))] 
-public class PlayerMovement : MonoBehaviour 
-{ 
+public class PlayerMovement : MonoBehaviour
+{
     public float speed = 5f, gravity = 1f; 
     private Vector3 _direction; 
-    private CharacterController _controller; 
+    private CharacterController _controller;
  
     public void Start() 
     { 
@@ -26,7 +26,7 @@ public class PlayerMovement : MonoBehaviour
         } 
          
         movement.y -= gravity * 9 * Time.deltaTime; 
-        _controller.Move(movement * speed * Time.deltaTime); 
+        _controller.Move(movement * speed * Time.deltaTime);
  
     } 
 }
