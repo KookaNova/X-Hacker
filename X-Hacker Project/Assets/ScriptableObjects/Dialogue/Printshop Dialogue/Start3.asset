@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cbd07399d02f254fbe46ace76a6c346, type: 3}
-  m_Name: Boss1-3
+  m_Name: Start3
   m_EditorClassIdentifier: 
-  description: Oh, I should probably let you fix this.
+  description: While it was installing, the computer warned me about some "rootkit"
+    thing. Don't know what that means, but it worked.
   dialogueEvent:
     m_PersistentCalls:
       m_Calls: []

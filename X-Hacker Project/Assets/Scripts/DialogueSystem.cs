@@ -4,7 +4,6 @@ using UnityEngine.UI;
 
 public class DialogueSystem : MonoBehaviour
 {
-    
     public Text speakerDisplay, dialogueDisplay;
     public Image backgroundBox;
     public int currentTextIndex;
@@ -32,6 +31,7 @@ public class DialogueSystem : MonoBehaviour
         currentTextIndex++;
         if (currentTextIndex >= dialogueToDisplay.Count)
         {
+            
             _speakerActive = false;
             CloseText();
         }
@@ -43,6 +43,8 @@ public class DialogueSystem : MonoBehaviour
 
     private void CloseText()
     {
+        currentTextIndex--;
+        dialogueToDisplay[currentTextIndex].RunDialogueEvent();
         speakerDisplay.text = null;
         dialogueDisplay.text = null;
         backgroundBox.gameObject.SetActive(false);

@@ -10,19 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cbd07399d02f254fbe46ace76a6c346, type: 3}
-  m_Name: Boss1-2
+  m_Name: Start4
   m_EditorClassIdentifier: 
-  description: I feel like it was probably Jamie who did this.
+  description: Hey, what's going on! The printer's are spewing paper and ink! Well,
+    I actually don't care what's going on, just hurry up and fix it!
   dialogueEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 11400000, guid: 14db5973faac1574a818db9af3d3389b, type: 2}
+        m_TargetAssemblyTypeName: GameAction, Assembly-CSharp
+        m_MethodName: Raise
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

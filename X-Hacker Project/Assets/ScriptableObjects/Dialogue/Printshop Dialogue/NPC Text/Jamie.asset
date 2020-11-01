@@ -12,4 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cbd07399d02f254fbe46ace76a6c346, type: 3}
   m_Name: Jamie
   m_EditorClassIdentifier: 
-  description: 
+  description: I wonder how the boss is going to blame me for this...
+  dialogueEvent:
+    m_PersistentCalls:
+      m_Calls: []

@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cbd07399d02f254fbe46ace76a6c346, type: 3}
-  m_Name: Boss1-3
+  m_Name: Start1
   m_EditorClassIdentifier: 
-  description: Oh, I should probably let you fix this.
+  description: I did it! I fixed the printer!
   dialogueEvent:
     m_PersistentCalls:
       m_Calls: []
