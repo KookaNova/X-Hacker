@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1513ff8ac08fca49a57fda86bac45cc, type: 3}
+  m_Name: LoseSO
+  m_EditorClassIdentifier: 
+  comparedValue: 1210
+  valueData: {fileID: 11400000, guid: edd65596ce67c8a42884fed54f773590, type: 2}
+  greaterThan: 1
+  lessThan: 0
+  equals: 1
+  greaterThanEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  lessThanEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  equalsEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  greaterThanEqualsEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 2be77188bcb408647a2d4cc76f0da316, type: 2}
+        m_TargetAssemblyTypeName: GameAction, Assembly-CSharp
+        m_MethodName: Raise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  lessThanEqualsEvent:
+    m_PersistentCalls:
+      m_Calls: []
