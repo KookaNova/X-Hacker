@@ -1336,6 +1336,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7578871853925978001, guid: 520d36a4d2bfae24687a1c076282dd99, type: 3}
   m_PrefabInstance: {fileID: 7578871853263223751}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &707114899 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 140431029499810074, guid: d0cb1d9b72b3781419c6bd66f6e2de2f, type: 3}
+  m_PrefabInstance: {fileID: 1205292318}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &718195891 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 140431027883121048, guid: d0cb1d9b72b3781419c6bd66f6e2de2f, type: 3}
@@ -3214,6 +3219,30 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1647276795}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 707114899}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!4 &1568770420
 Transform:
