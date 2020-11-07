@@ -32,6 +32,7 @@
           <e p="LookAtCameraBehavior.cs" t="Include" />
           <e p="MiniGameBase.cs" t="Include" />
           <e p="MiniGameBehavior.cs" t="Include" />
+          <e p="MouseOverEventBehavior.cs" t="Include" />
           <e p="Narriation.cs" t="Include" />
           <e p="NarriationTest.cs" t="Include" />
           <e p="NarriationTrigger.cs" t="Include" />
