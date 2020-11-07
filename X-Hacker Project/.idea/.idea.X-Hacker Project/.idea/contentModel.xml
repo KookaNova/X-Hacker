@@ -6,6 +6,8 @@
     <e p="F:\Fall 2020\X-Hacker\X-Hacker Project" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="ImageBehavior.cs" t="Include" />
+        <e p="PositionEventBehavior.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="ComputerMiniGame.cs" t="Include" />
           <e p="CounterBehavior.cs" t="Include" />
