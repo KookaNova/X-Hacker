@@ -9,7 +9,7 @@ public class DeviceInteractionBehavior : MonoBehaviour
         private IDSO otherID;
         private IDBehavior otherIDBehavior;
         public bool playerInRange, deviceActive, miniGameActive;
-        public UnityEvent interactionEvent;
+        public UnityEvent playerInRangeEvent, playerNotInRangeEvent, interactionEvent;
 
         public GameAction gameActionObj;
         public UnityEvent handlerEvent;
@@ -63,6 +63,12 @@ public class DeviceInteractionBehavior : MonoBehaviour
             if (otherIDBehavior == null) return; //If the object doesn't have an ID then stop
             otherID = otherIDBehavior.IDObj;
             CheckID();
+
+            //Is the player in the trigger? Call the event if so
+            if (playerInRange)
+            {
+                playerInRangeEvent.Invoke();
+            }
         }
 
         private void OnTriggerExit(Collider other)
@@ -72,6 +78,12 @@ public class DeviceInteractionBehavior : MonoBehaviour
                 otherID = null;
             }
             CheckID();
+
+            //Is the player not in the trigger? Call the event if so
+            if (!playerInRange)
+            {
+                playerNotInRangeEvent.Invoke();
+            }
         }
 
         private void CheckID()
