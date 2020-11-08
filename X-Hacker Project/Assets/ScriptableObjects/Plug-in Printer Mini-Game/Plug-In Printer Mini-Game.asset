@@ -10,10 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6556a57e9910de348a07089cb0fd4b1e, type: 3}
-  m_Name: Printer Mini-Game
+  m_Name: Plug-In Printer Mini-Game
   m_EditorClassIdentifier: 
-  cablePosition: {fileID: 11400000, guid: 0dbf2139e1e9fa64cbde88c711316eb0, type: 2}
-  originalPosition: {fileID: 11400000, guid: bb4e762aaec076b498507719d57b54fb, type: 2}
+  unplug: 0
+  plugIn: 1
+  cablePosition: {fileID: 11400000, guid: 703c575cc1b47ae408e820959a250519, type: 2}
+  originalPosition: {fileID: 11400000, guid: 864dd57328b4ea949965bae3359ebc86, type: 2}
   successEvent:
     m_PersistentCalls:
       m_Calls:

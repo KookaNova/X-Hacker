@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 1706541808}
   - component: {fileID: 735525245246567430}
   m_Layer: 5
-  m_Name: Printer Mini-Game
+  m_Name: Plug-in Printer Mini-Game
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -192,7 +192,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24a597f28685e0d4f97ce5709ad0ae5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  miniGame: {fileID: 11400000, guid: a6cfc5eb6730263418365e29a790db4c, type: 2}
+  miniGame: {fileID: 11400000, guid: 7ee95489a4390844f9fd3c38c36c8e60, type: 2}
   deactivateEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -255,19 +255,19 @@ MonoBehaviour:
   handlerEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: 0dbf2139e1e9fa64cbde88c711316eb0, type: 2}
+      - m_Target: {fileID: 11400000, guid: 703c575cc1b47ae408e820959a250519, type: 2}
         m_TargetAssemblyTypeName: Vector3SO, Assembly-CSharp
         m_MethodName: UpdateData
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: bb4e762aaec076b498507719d57b54fb, type: 2}
+          m_ObjectArgument: {fileID: 11400000, guid: 864dd57328b4ea949965bae3359ebc86, type: 2}
           m_ObjectArgumentAssemblyTypeName: Vector3SO, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: bb4e762aaec076b498507719d57b54fb, type: 2}
+      - m_Target: {fileID: 11400000, guid: 864dd57328b4ea949965bae3359ebc86, type: 2}
         m_TargetAssemblyTypeName: Vector3SO, Assembly-CSharp
         m_MethodName: MoveObjToData
         m_Mode: 2
@@ -279,7 +279,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: bb7f1cbde42af924481723a73538e09a, type: 2}
+      - m_Target: {fileID: 11400000, guid: 6c50e890caf8b9e41a4250f07df59bad, type: 2}
         m_TargetAssemblyTypeName: Vector3SO, Assembly-CSharp
         m_MethodName: MoveObjToData
         m_Mode: 2
@@ -290,6 +290,30 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 7625498623903371235}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 182333701465690551}
+        m_TargetAssemblyTypeName: ImageBehavior, Assembly-CSharp
+        m_MethodName: OnEnable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1703552165547074572
 MonoBehaviour:
@@ -303,7 +327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2dac03bb2e71314dbdf3ed3a9095d32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameActionObj: {fileID: 11400000, guid: 6234f8e55e0bd4242916e836d9776fa3, type: 2}
+  gameActionObj: {fileID: 11400000, guid: 13bec522ef8e40a44a326527a4a73d2d, type: 2}
   handlerEvent:
     m_PersistentCalls:
       m_Calls:
@@ -343,6 +367,42 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 182333701465690551}
+        m_TargetAssemblyTypeName: ImageBehavior, Assembly-CSharp
+        m_MethodName: ChangeAlpha
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 96249599990122985}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 182333701465690551}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1706541808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -355,7 +415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2dac03bb2e71314dbdf3ed3a9095d32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameActionObj: {fileID: 11400000, guid: d51ed5a511b1636438f2b04db096c164, type: 2}
+  gameActionObj: {fileID: 11400000, guid: 02ca4529865640c4180a9e2511b2abb4, type: 2}
   handlerEvent:
     m_PersistentCalls:
       m_Calls:
@@ -410,7 +470,7 @@ MonoBehaviour:
   startEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: bb7f1cbde42af924481723a73538e09a, type: 2}
+      - m_Target: {fileID: 11400000, guid: 6c50e890caf8b9e41a4250f07df59bad, type: 2}
         m_TargetAssemblyTypeName: Vector3SO, Assembly-CSharp
         m_MethodName: UpdateData
         m_Mode: 2
@@ -439,6 +499,7 @@ GameObject:
   - component: {fileID: 96249599990122985}
   - component: {fileID: 96249599990122986}
   - component: {fileID: 96249599990122984}
+  - component: {fileID: 182333701465690551}
   m_Layer: 5
   m_Name: Cable
   m_TagString: Untagged
@@ -462,7 +523,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -59.7, y: -51}
+  m_AnchoredPosition: {x: 65, y: -51}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &96249599990122987
@@ -517,8 +578,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xAxis: 1
   yAxis: 0
-  limitXMin: 0
-  limitXMax: 300
+  limitXMin: -275
+  limitXMax: 25
   limitYMin: 0
   limitYMax: 0
 --- !u!65 &96249599990122986
@@ -532,7 +593,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 100, y: 100, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &96249599990122984
 MonoBehaviour:
@@ -549,7 +610,7 @@ MonoBehaviour:
   startEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: 0dbf2139e1e9fa64cbde88c711316eb0, type: 2}
+      - m_Target: {fileID: 11400000, guid: 703c575cc1b47ae408e820959a250519, type: 2}
         m_TargetAssemblyTypeName: Vector3SO, Assembly-CSharp
         m_MethodName: UpdateData
         m_Mode: 2
@@ -561,7 +622,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: bb4e762aaec076b498507719d57b54fb, type: 2}
+      - m_Target: {fileID: 11400000, guid: 864dd57328b4ea949965bae3359ebc86, type: 2}
         m_TargetAssemblyTypeName: Vector3SO, Assembly-CSharp
         m_MethodName: UpdateData
         m_Mode: 2
@@ -576,13 +637,52 @@ MonoBehaviour:
   fixedUpdateEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: 0dbf2139e1e9fa64cbde88c711316eb0, type: 2}
+      - m_Target: {fileID: 11400000, guid: 703c575cc1b47ae408e820959a250519, type: 2}
         m_TargetAssemblyTypeName: Vector3SO, Assembly-CSharp
         m_MethodName: UpdateData
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 96249599990122997}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &182333701465690551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96249599990122998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9948190f8754b5b4c95e4162a2a00c22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 182333701465690551}
+        m_TargetAssemblyTypeName: ImageBehavior, Assembly-CSharp
+        m_MethodName: ChangeAlpha
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0.25
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 96249599990122985}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -886,6 +986,8 @@ GameObject:
   - component: {fileID: 7625498623903371235}
   - component: {fileID: 2124131077793396244}
   - component: {fileID: 8032301010250067591}
+  - component: {fileID: 6662144330362620724}
+  - component: {fileID: 8881114253576438239}
   m_Layer: 5
   m_Name: DifficultyObj
   m_TagString: Untagged
@@ -980,7 +1082,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 100, y: 100, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &8032301010250067591
 MonoBehaviour:
@@ -1012,6 +1114,76 @@ MonoBehaviour:
   fixedUpdateEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &6662144330362620724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2251798339714847975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cdb356ffe8409c41b038ff6c68c7438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  greaterThan: 0
+  lessThan: 1
+  equalTo: 0
+  xAxis: 0
+  yAxis: 1
+  offsetVector: {x: 0, y: -100, z: 0}
+  reachedPositionEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 96249599990122985}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 182333701465690551}
+        m_TargetAssemblyTypeName: ImageBehavior, Assembly-CSharp
+        m_MethodName: ChangeAlpha
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 1
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 7625498623903371235}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8881114253576438239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2251798339714847975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4322c69922b61f948b95ab14189b41b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IDObj: {fileID: 0}
 --- !u!1 &3426571116007785496
 GameObject:
   m_ObjectHideFlags: 0
@@ -1223,7 +1395,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -162.5, y: -151.2}
+  m_AnchoredPosition: {x: 161, y: 151}
   m_SizeDelta: {x: 70, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5445832894479437874
