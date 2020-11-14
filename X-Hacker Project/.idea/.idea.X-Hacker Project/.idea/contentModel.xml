@@ -6,8 +6,6 @@
     <e p="F:\Fall 2020\X-Hacker\X-Hacker Project" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="ImageBehavior.cs" t="Include" />
-        <e p="PositionEventBehavior.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="ComputerMiniGame.cs" t="Include" />
           <e p="CounterBehavior.cs" t="Include" />
@@ -17,6 +15,7 @@
             <e p="CharControllerMovementDebug.cs" t="Include" />
             <e p="UnityEventDebugger.cs" t="Include" />
           </e>
+          <e p="DestroyBehavior.cs" t="Include" />
           <e p="DestroyonExit.cs" t="Include" />
           <e p="DeviceInteractionBehavior.cs" t="Include" />
           <e p="DialogueSO.cs" t="Include" />
@@ -29,7 +28,9 @@
           <e p="GameActionHandler.cs" t="Include" />
           <e p="IDBehavior.cs" t="Include" />
           <e p="IDSO.cs" t="Include" />
+          <e p="ImageBehavior.cs" t="Include" />
           <e p="LookAtCameraBehavior.cs" t="Include" />
+          <e p="MainMenuWindowBehavior.cs" t="Include" />
           <e p="MiniGameBase.cs" t="Include" />
           <e p="MiniGameBehavior.cs" t="Include" />
           <e p="MouseOverEventBehavior.cs" t="Include" />
@@ -38,6 +39,7 @@
           <e p="NarriationTrigger.cs" t="Include" />
           <e p="PauseBehavior.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
+          <e p="PositionEventBehavior.cs" t="Include" />
           <e p="PrinterMiniGame.cs" t="Include" />
           <e p="SceneController.cs" t="Include" />
           <e p="SpeakerBehavior.cs" t="Include" />
