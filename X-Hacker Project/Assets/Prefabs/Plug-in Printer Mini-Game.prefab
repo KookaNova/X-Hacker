@@ -482,6 +482,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 864dd57328b4ea949965bae3359ebc86, type: 2}
+        m_TargetAssemblyTypeName: Vector3SO, Assembly-CSharp
+        m_MethodName: UpdateData
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 96249599990122997}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 703c575cc1b47ae408e820959a250519, type: 2}
+        m_TargetAssemblyTypeName: Vector3SO, Assembly-CSharp
+        m_MethodName: UpdateData
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 96249599990122997}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   fixedUpdateEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -578,10 +602,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xAxis: 1
   yAxis: 0
-  limitXMin: -275
-  limitXMax: 25
-  limitYMin: 0
-  limitYMax: 0
+  xMinLimit: 1
+  xMaxLimit: 1
+  yMinLimit: 1
+  yMaxLimit: 1
 --- !u!65 &96249599990122986
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1071,10 +1095,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xAxis: 0
   yAxis: 1
-  limitXMin: 0
-  limitXMax: 0
-  limitYMin: -125
-  limitYMax: 25
+  xMinLimit: 0
+  xMaxLimit: 0
+  yMinLimit: 1
+  yMaxLimit: 0
 --- !u!65 &2124131077793396244
 BoxCollider:
   m_ObjectHideFlags: 0

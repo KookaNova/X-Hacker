@@ -74,9 +74,24 @@ public class DragDropUIBehavior : MonoBehaviour, IPointerDownHandler, IPointerUp
         var yMax = curResolution.y - originalPosition.y;
         var yMin = -originalPosition.y;
 
-        limitXMax = xMax / xMaxLimit;
-        limitXMin = xMin / xMinLimit;
-        limitYMax = yMax / yMaxLimit;
-        limitYMin = yMin / yMinLimit;
+        if (xMaxLimit != 0)
+        {
+            limitXMax = xMax / xMaxLimit;
+        }
+
+        if (xMinLimit != 0)
+        {
+            limitXMin = xMin / xMinLimit;
+        }
+
+        if (yMaxLimit != 0)
+        {
+            limitYMax = yMax / yMaxLimit;
+        }
+
+        if (yMinLimit != 0)
+        {
+            limitYMin = yMin / yMinLimit;
+        }
     }
 }
