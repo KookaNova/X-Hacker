@@ -517,10 +517,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xAxis: 1
   yAxis: 0
-  limitXMin: 0
-  limitXMax: 300
-  limitYMin: 0
-  limitYMax: 0
+  xMinLimit: 0
+  xMaxLimit: 1
+  yMinLimit: 0
+  yMaxLimit: 0
 --- !u!65 &96249599990122986
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -965,10 +965,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xAxis: 0
   yAxis: 1
-  limitXMin: 0
-  limitXMax: 0
-  limitYMin: -125
-  limitYMax: 25
+  xMinLimit: 0
+  xMaxLimit: 0
+  yMinLimit: 2
+  yMaxLimit: 2.5
 --- !u!65 &2124131077793396244
 BoxCollider:
   m_ObjectHideFlags: 0
