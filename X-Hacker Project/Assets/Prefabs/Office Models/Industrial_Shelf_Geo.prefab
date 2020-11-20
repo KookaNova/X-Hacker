@@ -16,12 +16,13 @@ GameObject:
   - component: {fileID: 3116918910448164532}
   - component: {fileID: 2526836783362179608}
   - component: {fileID: 4259220146927161017}
+  - component: {fileID: 4072880489117098569}
   m_Layer: 0
   m_Name: Industrial_Shelf_Geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &7145221700754160594
 Transform:
@@ -95,7 +96,7 @@ BoxCollider:
   m_GameObject: {fileID: 5812587613008875832}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1.2451084, y: 0.070376396, z: 0.63121736}
   m_Center: {x: 0, y: 0.035188198, z: 0}
@@ -108,7 +109,7 @@ BoxCollider:
   m_GameObject: {fileID: 5812587613008875832}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1.2451084, y: 0.035108328, z: 0.63121736}
   m_Center: {x: 0, y: 0.47302127, z: 0}
@@ -121,7 +122,7 @@ BoxCollider:
   m_GameObject: {fileID: 5812587613008875832}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1.2451084, y: 0.035108328, z: 0.63121736}
   m_Center: {x: 0, y: 0.93, z: 0}
@@ -134,7 +135,7 @@ BoxCollider:
   m_GameObject: {fileID: 5812587613008875832}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1.2451084, y: 0.035098553, z: 0.63121736}
   m_Center: {x: 0, y: 1.3907781, z: 0}
@@ -147,7 +148,20 @@ BoxCollider:
   m_GameObject: {fileID: 5812587613008875832}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1.2451084, y: 0.0371902, z: 0.63121736}
   m_Center: {x: 0, y: 1.845745, z: 0}
+--- !u!65 &4072880489117098569
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5812587613008875832}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2537091, y: 1.9262406, z: 0.6456127}
+  m_Center: {x: -0.0060406923, y: 0.96248394, z: -0.000000044703484}
