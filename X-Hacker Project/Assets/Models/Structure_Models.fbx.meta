@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: 28a7c2b39ae0810498ebcffe92b74b1c
+guid: 84c2fde70f4debb498647a4eef362d68
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Structure_Mat
+    second: {fileID: 2100000, guid: 43ad82932a208c5429d00b561229b96b, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -63,7 +68,7 @@ ModelImporter:
     secondaryUVMinLightmapResolution: 40
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
-    useFileScale: 1
+    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
