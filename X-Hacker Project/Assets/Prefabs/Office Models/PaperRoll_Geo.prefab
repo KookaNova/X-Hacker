@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 192566980254889452}
   - component: {fileID: 8071530935324151750}
   - component: {fileID: 5882324807544936060}
-  - component: {fileID: 1920489406691275180}
+  - component: {fileID: 3795429869474198074}
   m_Layer: 0
   m_Name: PaperRoll_Geo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &192566980254889452
 Transform:
@@ -82,8 +82,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &1920489406691275180
-CapsuleCollider:
+--- !u!65 &3795429869474198074
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -92,7 +92,6 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.70000005
-  m_Height: 0.14999998
-  m_Direction: 1
+  serializedVersion: 2
+  m_Size: {x: 1.4000001, y: 0.14999998, z: 0.1426585}
   m_Center: {x: 0, y: 0.075, z: 0}

@@ -17,7 +17,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4
   m_IsActive: 1
 --- !u!4 &5232468821989018197
 Transform:
@@ -93,6 +93,6 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.24971421
-  m_Height: 0.49999997
+  m_Height: 3
   m_Direction: 1
-  m_Center: {x: 0.00000001490116, y: 0.24999999, z: -0.00000001490116}
+  m_Center: {x: 0.00000001490116, y: 1.48, z: -0.00000001490116}

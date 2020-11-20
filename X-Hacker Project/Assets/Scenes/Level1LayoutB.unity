@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Blue (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2844936117492869977, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.5
@@ -190,6 +194,10 @@ PrefabInstance:
     - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_Name
       value: Wall_Blue (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2844936117492869977, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -291,6 +299,10 @@ PrefabInstance:
     - target: {fileID: 6858110826541263236, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
       propertyPath: m_Name
       value: ShortWall_Painted_Geo (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6858110826541263236, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
@@ -410,7 +422,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2916978442772413046}
-  m_RootOrder: 37
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 374.999, z: 0}
 --- !u!23 &26876136
 MeshRenderer:
@@ -516,6 +528,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!1001 &36688703
@@ -559,7 +575,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4317847822230185058, guid: 4714d392a50ebd34cbde72c441271ee6, type: 3}
       propertyPath: m_RootOrder
-      value: 43
+      value: 42
       objectReference: {fileID: 0}
     - target: {fileID: 4317847822230185058, guid: 4714d392a50ebd34cbde72c441271ee6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -852,6 +868,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!1001 &62399239
@@ -908,6 +928,10 @@ PrefabInstance:
     - target: {fileID: 6858110826541263236, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
       propertyPath: m_Name
       value: ShortWall_Painted_Geo (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6858110826541263236, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
@@ -966,6 +990,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShortWall_Painted_Geo (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6858110826541263236, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
 --- !u!1001 &70942961
@@ -1022,6 +1050,10 @@ PrefabInstance:
     - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
       propertyPath: m_Name
       value: Floor_Wood_Geo
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
@@ -1175,6 +1207,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trash_Bin_Geo (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1525473140011081940, guid: 4172e9ecb7efe9c43813a328136b5009, type: 3}
+      propertyPath: m_Height
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1525473140011081940, guid: 4172e9ecb7efe9c43813a328136b5009, type: 3}
+      propertyPath: m_Center.y
+      value: 1.42
+      objectReference: {fileID: 0}
     - target: {fileID: 5232468821989018197, guid: 4172e9ecb7efe9c43813a328136b5009, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.623
@@ -1262,7 +1302,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3207662608142367367, guid: ebc75742819c60c44ac17213451662fa, type: 3}
       propertyPath: m_RootOrder
-      value: 50
+      value: 49
       objectReference: {fileID: 0}
     - target: {fileID: 3207662608142367367, guid: ebc75742819c60c44ac17213451662fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1313,7 +1353,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2916978442772413046}
-  m_RootOrder: 34
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 77.644, z: 0}
 --- !u!23 &112821551
 MeshRenderer:
@@ -1423,6 +1463,10 @@ PrefabInstance:
     - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
       propertyPath: m_Name
       value: Floor_Wood_Geo (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
@@ -1540,7 +1584,7 @@ Transform:
   - {fileID: 184053580}
   - {fileID: 18524129}
   m_Father: {fileID: 2916978442772413046}
-  m_RootOrder: 53
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 52.628, z: 0}
 --- !u!4 &178805481 stripped
 Transform:
@@ -1683,6 +1727,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShortWall_Painted_Geo (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6858110826541263236, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
 --- !u!1 &186517120
@@ -1770,6 +1818,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!4 &201558317 stripped
@@ -1819,7 +1871,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 192566980254889452, guid: e16d682d2862d364cbb08c1f478f1e20, type: 3}
       propertyPath: m_RootOrder
-      value: 48
+      value: 47
       objectReference: {fileID: 0}
     - target: {fileID: 192566980254889452, guid: e16d682d2862d364cbb08c1f478f1e20, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1849,6 +1901,10 @@ PrefabInstance:
     - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_Name
       value: Wall_Blue (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2844936117492869977, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2116,6 +2172,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShortWall_Painted_Geo (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6858110826541263236, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
 --- !u!1001 &302916188
@@ -2172,6 +2232,10 @@ PrefabInstance:
     - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
       propertyPath: m_Name
       value: Floor_Wood_Geo (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
@@ -2241,6 +2305,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!1001 &315745489
@@ -2297,6 +2365,10 @@ PrefabInstance:
     - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
       propertyPath: m_Name
       value: Floor_Wood_Geo (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
@@ -2359,6 +2431,10 @@ PrefabInstance:
     - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
       propertyPath: m_Name
       value: Floor_Wood_Geo (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
@@ -2427,6 +2503,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShortWall_Painted_Geo (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 6858110826541263236, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
 --- !u!4 &363889525 stripped
@@ -2471,7 +2551,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4931568963500360226, guid: cacad90052d2afd478de4159b13d55f1, type: 3}
       propertyPath: m_RootOrder
-      value: 56
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 4931568963500360226, guid: cacad90052d2afd478de4159b13d55f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2518,6 +2598,10 @@ PrefabInstance:
     - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_Name
       value: Wall_Blue (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2844936117492869977, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2722,6 +2806,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!1001 &383979617
@@ -2778,6 +2866,10 @@ PrefabInstance:
     - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
       propertyPath: m_Name
       value: Floor_Wood_Geo (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
@@ -2958,6 +3050,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1890271937}
     m_Modifications:
+    - target: {fileID: 2050725908474682847, guid: cd9a6e162848dd6408620bbabbe9209d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3700784163151333413, guid: cd9a6e162848dd6408620bbabbe9209d, type: 3}
       propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.size
       value: 4
@@ -3088,11 +3184,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7214908686613732042, guid: bd9a2995da008384c986a8bd0e1371f8, type: 3}
   m_PrefabInstance: {fileID: 1149562779}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &457180979 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3802194701058685931, guid: 93f47fb4939540847a786242ef1ad49f, type: 3}
-  m_PrefabInstance: {fileID: 1270847853}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &461268835
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3147,6 +3238,10 @@ PrefabInstance:
     - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
       propertyPath: m_Name
       value: Floor_Wood_Geo (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
@@ -3275,6 +3370,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!1 &483349024
@@ -3353,7 +3452,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3207662608142367367, guid: ebc75742819c60c44ac17213451662fa, type: 3}
       propertyPath: m_RootOrder
-      value: 52
+      value: 51
       objectReference: {fileID: 0}
     - target: {fileID: 3207662608142367367, guid: ebc75742819c60c44ac17213451662fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3446,6 +3545,10 @@ PrefabInstance:
     - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_Name
       value: Wall_Blue (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2844936117492869977, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3552,6 +3655,10 @@ PrefabInstance:
     - target: {fileID: 6858110826541263236, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
       propertyPath: m_Name
       value: ShortWall_Painted_Geo (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6858110826541263236, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
@@ -3678,6 +3785,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Blue (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2844936117492869977, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.75
@@ -3750,6 +3861,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Blue (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2844936117492869977, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7
@@ -3806,6 +3921,10 @@ PrefabInstance:
     - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_Name
       value: Wall_Blue (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2844936117492869977, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3900,7 +4019,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 192566980254889452, guid: e16d682d2862d364cbb08c1f478f1e20, type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 192566980254889452, guid: e16d682d2862d364cbb08c1f478f1e20, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3985,6 +4104,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShortWall_Painted_Geo (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6858110826541263236, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
 --- !u!1001 &672275756
@@ -4042,6 +4165,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!1001 &674000287
@@ -4098,6 +4225,10 @@ PrefabInstance:
     - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
       propertyPath: m_Name
       value: Floor_Wood_Geo (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
@@ -4292,7 +4423,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 192566980254889452, guid: e16d682d2862d364cbb08c1f478f1e20, type: 3}
       propertyPath: m_RootOrder
-      value: 47
+      value: 46
       objectReference: {fileID: 0}
     - target: {fileID: 192566980254889452, guid: e16d682d2862d364cbb08c1f478f1e20, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4347,7 +4478,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2916978442772413046}
-  m_RootOrder: 36
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
 --- !u!23 &708491200
 MeshRenderer:
@@ -4458,6 +4589,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!1001 &725950095
@@ -4514,6 +4649,10 @@ PrefabInstance:
     - target: {fileID: 6858110826541263236, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
       propertyPath: m_Name
       value: ShortWall_Painted_Geo (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6858110826541263236, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
@@ -4572,6 +4711,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!224 &759247826 stripped
@@ -4621,7 +4764,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 192566980254889452, guid: e16d682d2862d364cbb08c1f478f1e20, type: 3}
       propertyPath: m_RootOrder
-      value: 64
+      value: 63
       objectReference: {fileID: 0}
     - target: {fileID: 192566980254889452, guid: e16d682d2862d364cbb08c1f478f1e20, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4715,6 +4858,10 @@ PrefabInstance:
     - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
       propertyPath: m_Name
       value: Floor_Wood_Geo (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
@@ -4831,7 +4978,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4317847822230185058, guid: 4714d392a50ebd34cbde72c441271ee6, type: 3}
       propertyPath: m_RootOrder
-      value: 38
+      value: 37
       objectReference: {fileID: 0}
     - target: {fileID: 4317847822230185058, guid: 4714d392a50ebd34cbde72c441271ee6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4907,6 +5054,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShortWall_Painted_Geo (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 6858110826541263236, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
 --- !u!1001 &860948716
@@ -4963,6 +5114,10 @@ PrefabInstance:
     - target: {fileID: 6858110826541263236, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
       propertyPath: m_Name
       value: ShortWall_Painted_Geo (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6858110826541263236, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
@@ -5025,6 +5180,10 @@ PrefabInstance:
     - target: {fileID: 6858110826541263236, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
       propertyPath: m_Name
       value: ShortWall_Painted_Geo (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6858110826541263236, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
@@ -5129,6 +5288,7 @@ GameObject:
   - component: {fileID: 879531975}
   - component: {fileID: 879531977}
   - component: {fileID: 879531976}
+  - component: {fileID: 879531978}
   m_Layer: 0
   m_Name: SnakePlant_Geo (2)
   m_TagString: Untagged
@@ -5148,7 +5308,7 @@ Transform:
   m_LocalScale: {x: 1.5626624, y: 1.5626624, z: 1.5626624}
   m_Children: []
   m_Father: {fileID: 2916978442772413046}
-  m_RootOrder: 49
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 43.212, z: 0}
 --- !u!23 &879531976
 MeshRenderer:
@@ -5199,6 +5359,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 879531974}
   m_Mesh: {fileID: 2138346485530672899, guid: ac55debd935e403418568f96d3e7f59d, type: 3}
+--- !u!136 &879531978
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879531974}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.14
+  m_Height: 0.8240491
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.4, z: 0}
 --- !u!4 &905006025 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3600165291806211680, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
@@ -5259,6 +5433,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!1001 &918596872
@@ -5316,6 +5494,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShortWall_Painted_Geo (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6858110826541263236, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
 --- !u!1 &930824697
@@ -5329,6 +5511,7 @@ GameObject:
   - component: {fileID: 930824698}
   - component: {fileID: 930824700}
   - component: {fileID: 930824699}
+  - component: {fileID: 930824701}
   m_Layer: 0
   m_Name: SnakePlant_Geo (1)
   m_TagString: Untagged
@@ -5348,7 +5531,7 @@ Transform:
   m_LocalScale: {x: 1.2889, y: 1.2889, z: 1.2889}
   m_Children: []
   m_Father: {fileID: 2916978442772413046}
-  m_RootOrder: 35
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &930824699
 MeshRenderer:
@@ -5399,6 +5582,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 930824697}
   m_Mesh: {fileID: 2138346485530672899, guid: ac55debd935e403418568f96d3e7f59d, type: 3}
+--- !u!136 &930824701
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930824697}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.14
+  m_Height: 0.8240491
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.4, z: 0}
 --- !u!1001 &938068980
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5453,6 +5650,10 @@ PrefabInstance:
     - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
       propertyPath: m_Name
       value: Floor_Wood_Geo (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
@@ -5712,6 +5913,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Blue (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2844936117492869977, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.75
@@ -5887,21 +6092,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -4021974357142224531, guid: 93f47fb4939540847a786242ef1ad49f, type: 3}
+      propertyPath: m_Size.y
+      value: 1.3633467
+      objectReference: {fileID: 0}
+    - target: {fileID: -4021974357142224531, guid: 93f47fb4939540847a786242ef1ad49f, type: 3}
+      propertyPath: m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4021974357142224531, guid: 93f47fb4939540847a786242ef1ad49f, type: 3}
+      propertyPath: m_Center.y
+      value: 0.6795935
+      objectReference: {fileID: 0}
+    - target: {fileID: -4021974357142224531, guid: 93f47fb4939540847a786242ef1ad49f, type: 3}
+      propertyPath: m_Center.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3659917193849273629, guid: 93f47fb4939540847a786242ef1ad49f, type: 3}
       propertyPath: m_Name
       value: Cardboard_Box_Open_Geo
       objectReference: {fileID: 0}
     - target: {fileID: 3802194701058685931, guid: 93f47fb4939540847a786242ef1ad49f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.6737218
+      value: -1.626
       objectReference: {fileID: 0}
     - target: {fileID: 3802194701058685931, guid: 93f47fb4939540847a786242ef1ad49f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.005
       objectReference: {fileID: 0}
     - target: {fileID: 3802194701058685931, guid: 93f47fb4939540847a786242ef1ad49f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.2367299
+      value: -1.315
       objectReference: {fileID: 0}
     - target: {fileID: 3802194701058685931, guid: 93f47fb4939540847a786242ef1ad49f, type: 3}
       propertyPath: m_LocalRotation.x
@@ -5934,18 +6155,6 @@ PrefabInstance:
     - target: {fileID: 3802194701058685931, guid: 93f47fb4939540847a786242ef1ad49f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3802194701058685931, guid: 93f47fb4939540847a786242ef1ad49f, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.1983006
-      objectReference: {fileID: 0}
-    - target: {fileID: 3802194701058685931, guid: 93f47fb4939540847a786242ef1ad49f, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.1983
-      objectReference: {fileID: 0}
-    - target: {fileID: 3802194701058685931, guid: 93f47fb4939540847a786242ef1ad49f, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.1983006
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93f47fb4939540847a786242ef1ad49f, type: 3}
@@ -6038,6 +6247,10 @@ PrefabInstance:
     - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_Name
       value: Wall_Blue (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2844936117492869977, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6170,7 +6383,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 192566980254889452, guid: e16d682d2862d364cbb08c1f478f1e20, type: 3}
       propertyPath: m_RootOrder
-      value: 58
+      value: 57
       objectReference: {fileID: 0}
     - target: {fileID: 192566980254889452, guid: e16d682d2862d364cbb08c1f478f1e20, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -6245,6 +6458,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShortWall_Painted_Geo (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 6858110826541263236, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
 --- !u!4 &1048339342 stripped
@@ -6311,6 +6528,10 @@ PrefabInstance:
     - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
       propertyPath: m_Name
       value: Floor_Wood_Geo (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
@@ -6379,6 +6600,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!4 &1069274435 stripped
@@ -6432,7 +6657,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4317847822230185058, guid: 4714d392a50ebd34cbde72c441271ee6, type: 3}
       propertyPath: m_RootOrder
-      value: 42
+      value: 41
       objectReference: {fileID: 0}
     - target: {fileID: 4317847822230185058, guid: 4714d392a50ebd34cbde72c441271ee6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -6547,6 +6772,10 @@ PrefabInstance:
     - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
       propertyPath: m_Name
       value: Floor_Wood_Geo (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
@@ -6704,6 +6933,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Blue_Door (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1335714250701859757, guid: bd9a2995da008384c986a8bd0e1371f8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7214908686613732042, guid: bd9a2995da008384c986a8bd0e1371f8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.000001
@@ -6792,7 +7025,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4931568963500360226, guid: cacad90052d2afd478de4159b13d55f1, type: 3}
       propertyPath: m_RootOrder
-      value: 55
+      value: 54
       objectReference: {fileID: 0}
     - target: {fileID: 4931568963500360226, guid: cacad90052d2afd478de4159b13d55f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -6976,6 +7209,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!1001 &1184095236
@@ -7019,7 +7256,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4317847822230185058, guid: 4714d392a50ebd34cbde72c441271ee6, type: 3}
       propertyPath: m_RootOrder
-      value: 40
+      value: 39
       objectReference: {fileID: 0}
     - target: {fileID: 4317847822230185058, guid: 4714d392a50ebd34cbde72c441271ee6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -7177,6 +7414,10 @@ PrefabInstance:
     - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_Name
       value: Wall_Blue (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2844936117492869977, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7396,6 +7637,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!1 &1263819997
@@ -7428,7 +7673,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2916978442772413046}
-  m_RootOrder: 32
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!23 &1263819999
 MeshRenderer:
@@ -7484,63 +7729,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 192566980254889452, guid: e16d682d2862d364cbb08c1f478f1e20, type: 3}
   m_PrefabInstance: {fileID: 1661193583}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1270847853
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 2916978442772413046}
-    m_Modifications:
-    - target: {fileID: 3659917193849273629, guid: 93f47fb4939540847a786242ef1ad49f, type: 3}
-      propertyPath: m_Name
-      value: Cardboard_Box_Open_Geo
-      objectReference: {fileID: 0}
-    - target: {fileID: 3802194701058685931, guid: 93f47fb4939540847a786242ef1ad49f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.7207484
-      objectReference: {fileID: 0}
-    - target: {fileID: 3802194701058685931, guid: 93f47fb4939540847a786242ef1ad49f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.956
-      objectReference: {fileID: 0}
-    - target: {fileID: 3802194701058685931, guid: 93f47fb4939540847a786242ef1ad49f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.1667943
-      objectReference: {fileID: 0}
-    - target: {fileID: 3802194701058685931, guid: 93f47fb4939540847a786242ef1ad49f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3802194701058685931, guid: 93f47fb4939540847a786242ef1ad49f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.11543572
-      objectReference: {fileID: 0}
-    - target: {fileID: 3802194701058685931, guid: 93f47fb4939540847a786242ef1ad49f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3802194701058685931, guid: 93f47fb4939540847a786242ef1ad49f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.993315
-      objectReference: {fileID: 0}
-    - target: {fileID: 3802194701058685931, guid: 93f47fb4939540847a786242ef1ad49f, type: 3}
-      propertyPath: m_RootOrder
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 3802194701058685931, guid: 93f47fb4939540847a786242ef1ad49f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3802194701058685931, guid: 93f47fb4939540847a786242ef1ad49f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 193.258
-      objectReference: {fileID: 0}
-    - target: {fileID: 3802194701058685931, guid: 93f47fb4939540847a786242ef1ad49f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 93f47fb4939540847a786242ef1ad49f, type: 3}
 --- !u!4 &1276511167 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3600165291806211680, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
@@ -7699,7 +7887,7 @@ Transform:
   - {fileID: 1593760807}
   - {fileID: 1682656847}
   m_Father: {fileID: 2916978442772413046}
-  m_RootOrder: 33
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 105, z: 0}
 --- !u!1001 &1301025941
 PrefabInstance:
@@ -7711,6 +7899,10 @@ PrefabInstance:
     - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_Name
       value: Wall_Blue (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2844936117492869977, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7800,7 +7992,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 192566980254889452, guid: e16d682d2862d364cbb08c1f478f1e20, type: 3}
       propertyPath: m_RootOrder
-      value: 63
+      value: 62
       objectReference: {fileID: 0}
     - target: {fileID: 192566980254889452, guid: e16d682d2862d364cbb08c1f478f1e20, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -7857,7 +8049,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 192566980254889452, guid: e16d682d2862d364cbb08c1f478f1e20, type: 3}
       propertyPath: m_RootOrder
-      value: 59
+      value: 58
       objectReference: {fileID: 0}
     - target: {fileID: 192566980254889452, guid: e16d682d2862d364cbb08c1f478f1e20, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -8079,6 +8271,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!1 &1334331155
@@ -8269,7 +8465,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 192566980254889452, guid: e16d682d2862d364cbb08c1f478f1e20, type: 3}
       propertyPath: m_RootOrder
-      value: 60
+      value: 59
       objectReference: {fileID: 0}
     - target: {fileID: 192566980254889452, guid: e16d682d2862d364cbb08c1f478f1e20, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -8349,6 +8545,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!4 &1354828301 stripped
@@ -8366,6 +8566,10 @@ PrefabInstance:
     - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_Name
       value: Wall_Blue (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2844936117492869977, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8468,6 +8672,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!4 &1376716706 stripped
@@ -8512,7 +8720,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4931568963500360226, guid: cacad90052d2afd478de4159b13d55f1, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 4931568963500360226, guid: cacad90052d2afd478de4159b13d55f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -8833,7 +9041,7 @@ Camera:
   far clip plane: 1000
   field of view: 27
   orthographic: 1
-  orthographic size: 7.56
+  orthographic size: 2.1
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -8856,8 +9064,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1437237040}
-  m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 0, y: 16.1, z: -14.4}
+  m_LocalRotation: {x: 0.023543205, y: 0.9624765, z: -0.2553641, w: 0.08873519}
+  m_LocalPosition: {x: -4.1719294, y: 10, z: 11.950105}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8942,6 +9150,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1890271937}
     m_Modifications:
+    - target: {fileID: 2050725908474682847, guid: cd9a6e162848dd6408620bbabbe9209d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3700784163151333413, guid: cd9a6e162848dd6408620bbabbe9209d, type: 3}
       propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.size
       value: 4
@@ -9150,6 +9362,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!4 &1465476529 stripped
@@ -9291,6 +9507,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShortWall_Painted_Geo (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6858110826541263236, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
 --- !u!4 &1505988201 stripped
@@ -9353,6 +9573,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShortWall_Painted_Geo (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6858110826541263236, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
 --- !u!1 &1528654497 stripped
@@ -9397,7 +9621,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 192566980254889452, guid: e16d682d2862d364cbb08c1f478f1e20, type: 3}
       propertyPath: m_RootOrder
-      value: 65
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 192566980254889452, guid: e16d682d2862d364cbb08c1f478f1e20, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9471,6 +9695,10 @@ PrefabInstance:
     - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
       propertyPath: m_Name
       value: Floor_Wood_Geo (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
@@ -9700,7 +9928,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5232468821989018197, guid: 4172e9ecb7efe9c43813a328136b5009, type: 3}
       propertyPath: m_RootOrder
-      value: 44
+      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: 5232468821989018197, guid: 4172e9ecb7efe9c43813a328136b5009, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -10161,6 +10389,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!1001 &1611519162
@@ -10173,6 +10405,10 @@ PrefabInstance:
     - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_Name
       value: Wall_Blue (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2844936117492869977, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10630,6 +10866,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!1001 &1636439213
@@ -10669,7 +10909,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 192566980254889452, guid: e16d682d2862d364cbb08c1f478f1e20, type: 3}
       propertyPath: m_RootOrder
-      value: 61
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 192566980254889452, guid: e16d682d2862d364cbb08c1f478f1e20, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -10933,7 +11173,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 192566980254889452, guid: e16d682d2862d364cbb08c1f478f1e20, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 192566980254889452, guid: e16d682d2862d364cbb08c1f478f1e20, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -10968,6 +11208,10 @@ PrefabInstance:
     - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_Name
       value: Wall_Blue (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2844936117492869977, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11288,7 +11532,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1719233190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11399,6 +11643,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShortWall_Painted_Geo (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 6858110826541263236, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
 --- !u!4 &1732235139 stripped
@@ -11421,6 +11669,10 @@ PrefabInstance:
     - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_Name
       value: Wall_Blue (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2844936117492869977, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11527,6 +11779,10 @@ PrefabInstance:
     - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
       propertyPath: m_Name
       value: Floor_Wood_Geo (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
@@ -11649,6 +11905,10 @@ PrefabInstance:
     - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
       propertyPath: m_Name
       value: Floor_Wood_Geo (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
@@ -11983,6 +12243,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!1001 &1813978723
@@ -12026,7 +12290,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7888490778196073811, guid: ee97fef14c481ea4fb66cbd362cea68e, type: 3}
       propertyPath: m_RootOrder
-      value: 45
+      value: 44
       objectReference: {fileID: 0}
     - target: {fileID: 7888490778196073811, guid: ee97fef14c481ea4fb66cbd362cea68e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -12421,6 +12685,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!1001 &1855685993
@@ -12464,7 +12732,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4317847822230185058, guid: 4714d392a50ebd34cbde72c441271ee6, type: 3}
       propertyPath: m_RootOrder
-      value: 39
+      value: 38
       objectReference: {fileID: 0}
     - target: {fileID: 4317847822230185058, guid: 4714d392a50ebd34cbde72c441271ee6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -12551,6 +12819,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!1001 &1867892261
@@ -12607,6 +12879,10 @@ PrefabInstance:
     - target: {fileID: 6858110826541263236, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
       propertyPath: m_Name
       value: ShortWall_Painted_Geo (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6858110826541263236, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
@@ -12963,6 +13239,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!4 &1901742520 stripped
@@ -12980,6 +13260,10 @@ PrefabInstance:
     - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_Name
       value: Wall_Blue (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2844936117492869977, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13052,6 +13336,10 @@ PrefabInstance:
     - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_Name
       value: Wall_Blue (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2844936117492869977, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13212,6 +13500,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!1001 &1967459483
@@ -13251,7 +13543,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4931568963500360226, guid: cacad90052d2afd478de4159b13d55f1, type: 3}
       propertyPath: m_RootOrder
-      value: 54
+      value: 53
       objectReference: {fileID: 0}
     - target: {fileID: 4931568963500360226, guid: cacad90052d2afd478de4159b13d55f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -13338,6 +13630,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!4 &1979811439 stripped
@@ -13405,8 +13701,74 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+--- !u!1001 &1993654213
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2916978442772413046}
+    m_Modifications:
+    - target: {fileID: 4931568963500360226, guid: cacad90052d2afd478de4159b13d55f1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.768
+      objectReference: {fileID: 0}
+    - target: {fileID: 4931568963500360226, guid: cacad90052d2afd478de4159b13d55f1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.957
+      objectReference: {fileID: 0}
+    - target: {fileID: 4931568963500360226, guid: cacad90052d2afd478de4159b13d55f1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.039
+      objectReference: {fileID: 0}
+    - target: {fileID: 4931568963500360226, guid: cacad90052d2afd478de4159b13d55f1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4931568963500360226, guid: cacad90052d2afd478de4159b13d55f1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.35937762
+      objectReference: {fileID: 0}
+    - target: {fileID: 4931568963500360226, guid: cacad90052d2afd478de4159b13d55f1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4931568963500360226, guid: cacad90052d2afd478de4159b13d55f1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.93319225
+      objectReference: {fileID: 0}
+    - target: {fileID: 4931568963500360226, guid: cacad90052d2afd478de4159b13d55f1, type: 3}
+      propertyPath: m_RootOrder
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 4931568963500360226, guid: cacad90052d2afd478de4159b13d55f1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4931568963500360226, guid: cacad90052d2afd478de4159b13d55f1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 317.876
+      objectReference: {fileID: 0}
+    - target: {fileID: 4931568963500360226, guid: cacad90052d2afd478de4159b13d55f1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8517038068079719519, guid: cacad90052d2afd478de4159b13d55f1, type: 3}
+      propertyPath: m_Name
+      value: Cardboard_Box_Closed_Geo (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cacad90052d2afd478de4159b13d55f1, type: 3}
+--- !u!4 &1993654214 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4931568963500360226, guid: cacad90052d2afd478de4159b13d55f1, type: 3}
+  m_PrefabInstance: {fileID: 1993654213}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2000356365
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13461,6 +13823,10 @@ PrefabInstance:
     - target: {fileID: 6858110826541263236, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
       propertyPath: m_Name
       value: ShortWall_Painted_Geo (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6858110826541263236, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
@@ -13519,6 +13885,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShortWall_Painted_Geo (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6858110826541263236, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
 --- !u!1001 &2007911439
@@ -13576,6 +13946,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShortWall_Painted_Geo (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6858110826541263236, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
 --- !u!1001 &2009438142
@@ -13619,7 +13993,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3207662608142367367, guid: ebc75742819c60c44ac17213451662fa, type: 3}
       propertyPath: m_RootOrder
-      value: 51
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3207662608142367367, guid: ebc75742819c60c44ac17213451662fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -13695,6 +14069,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShortWall_Painted_Geo (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 6858110826541263236, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
 --- !u!1001 &2022662187
@@ -13751,6 +14129,10 @@ PrefabInstance:
     - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
       propertyPath: m_Name
       value: Floor_Wood_Geo (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
@@ -13894,7 +14276,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 192566980254889452, guid: e16d682d2862d364cbb08c1f478f1e20, type: 3}
       propertyPath: m_RootOrder
-      value: 46
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 192566980254889452, guid: e16d682d2862d364cbb08c1f478f1e20, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -14088,7 +14470,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 192566980254889452, guid: e16d682d2862d364cbb08c1f478f1e20, type: 3}
       propertyPath: m_RootOrder
-      value: 62
+      value: 61
       objectReference: {fileID: 0}
     - target: {fileID: 192566980254889452, guid: e16d682d2862d364cbb08c1f478f1e20, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -14118,6 +14500,14 @@ PrefabInstance:
     - target: {fileID: 417894645892318750, guid: 4172e9ecb7efe9c43813a328136b5009, type: 3}
       propertyPath: m_Name
       value: Trash_Bin_Geo
+      objectReference: {fileID: 0}
+    - target: {fileID: 1525473140011081940, guid: 4172e9ecb7efe9c43813a328136b5009, type: 3}
+      propertyPath: m_Height
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1525473140011081940, guid: 4172e9ecb7efe9c43813a328136b5009, type: 3}
+      propertyPath: m_Center.y
+      value: 0.82
       objectReference: {fileID: 0}
     - target: {fileID: 5232468821989018197, guid: 4172e9ecb7efe9c43813a328136b5009, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14304,6 +14694,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Blue (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2844936117492869977, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.25
@@ -14402,7 +14796,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4931568963500360226, guid: cacad90052d2afd478de4159b13d55f1, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 4931568963500360226, guid: cacad90052d2afd478de4159b13d55f1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -14765,7 +15159,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4317847822230185058, guid: 4714d392a50ebd34cbde72c441271ee6, type: 3}
       propertyPath: m_RootOrder
-      value: 41
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 4317847822230185058, guid: 4714d392a50ebd34cbde72c441271ee6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -14826,7 +15220,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7145221700754160594, guid: a05661d4758259141be27d1ced2241aa, type: 3}
       propertyPath: m_RootOrder
-      value: 57
+      value: 56
       objectReference: {fileID: 0}
     - target: {fileID: 7145221700754160594, guid: a05661d4758259141be27d1ced2241aa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -15126,7 +15520,7 @@ Transform:
   - {fileID: 8379439571419548980}
   - {fileID: 2062115075}
   m_Father: {fileID: 2916978442772413046}
-  m_RootOrder: 25
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!33 &397852721794528964
 MeshFilter:
@@ -15225,7 +15619,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2916978442772413046}
-  m_RootOrder: 29
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 47.644, z: 0}
 --- !u!33 &1027166159729759523
 MeshFilter:
@@ -15437,7 +15831,7 @@ Transform:
   - {fileID: 7123438855354543299}
   - {fileID: 9004231283451606512}
   m_Father: {fileID: 2916978442772413046}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1879193916372914729
 GameObject:
@@ -15892,6 +16286,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Blue_Door
       objectReference: {fileID: 0}
+    - target: {fileID: 1335714250701859757, guid: bd9a2995da008384c986a8bd0e1371f8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7214908686613732042, guid: bd9a2995da008384c986a8bd0e1371f8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.7500005
@@ -16153,7 +16551,6 @@ Transform:
   - {fileID: 1097022044}
   - {fileID: 1295466860}
   - {fileID: 1453721632}
-  - {fileID: 457180979}
   - {fileID: 1443498488}
   - {fileID: 635593798}
   - {fileID: 1270141887}
@@ -16202,6 +16599,7 @@ Transform:
   - {fileID: 1376716706}
   - {fileID: 585281161}
   - {fileID: 1317797221}
+  - {fileID: 1993654214}
   m_Father: {fileID: 0}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
@@ -16698,7 +17096,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2916978442772413046}
-  m_RootOrder: 23
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3818914463840293139
 GameObject:
@@ -16819,7 +17217,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2916978442772413046}
-  m_RootOrder: 24
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!224 &4276468667517860999 stripped
 RectTransform:
@@ -16991,7 +17389,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2916978442772413046}
-  m_RootOrder: 30
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4867509061382052648
 Transform:
@@ -17582,6 +17980,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShortWall_Painted_Geo
       objectReference: {fileID: 0}
+    - target: {fileID: 6858110826541263236, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
 --- !u!23 &5739856042010039620
@@ -17718,7 +18120,7 @@ Transform:
   - {fileID: 988236450}
   - {fileID: 1142730632}
   m_Father: {fileID: 2916978442772413046}
-  m_RootOrder: 28
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 105, z: 0}
 --- !u!23 &6448187839668820212
 MeshRenderer:
@@ -17812,6 +18214,10 @@ PrefabInstance:
     - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_Name
       value: Wall_Blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2844936117492869977, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18085,7 +18491,7 @@ Transform:
   m_Children:
   - {fileID: 1084300936038384964}
   m_Father: {fileID: 2916978442772413046}
-  m_RootOrder: 31
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 104.68, z: 0}
 --- !u!23 &7442176943574512046
 MeshRenderer:
@@ -18300,7 +18706,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2916978442772413046}
-  m_RootOrder: 26
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!23 &8331449466861570482
 MeshRenderer:
@@ -18432,7 +18838,7 @@ Transform:
   m_LocalScale: {x: 0.7913971, y: 0.7913971, z: 0.7913971}
   m_Children: []
   m_Father: {fileID: 2916978442772413046}
-  m_RootOrder: 27
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: -105, z: 0}
 --- !u!33 &8725008791645035528
 MeshFilter:
