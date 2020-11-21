@@ -4,6 +4,7 @@ using UnityEngine.Events;
 [CreateAssetMenu(menuName = "Mini-Games/Printer")]
 public class PrinterMiniGame : MiniGameBase
 {
+    public bool unplug, plugIn;
     public Vector3SO cablePosition, originalPosition;
     public UnityEvent successEvent, resetEvent;
     
@@ -14,9 +15,20 @@ public class PrinterMiniGame : MiniGameBase
 
     public override void Success()
     {
-        if (cablePosition.data.x > originalPosition.data.x + 200)
+        if (unplug)
         {
-            successEvent.Invoke();
+            if (cablePosition.data.x > originalPosition.data.x + 200)
+            {
+                successEvent.Invoke();
+            }
+        }
+
+        if (plugIn)
+        {
+            if (cablePosition.data.x < originalPosition.data.x - 180)
+            {
+                successEvent.Invoke();
+            }
         }
     }
 
