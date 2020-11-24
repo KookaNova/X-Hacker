@@ -27,7 +27,6 @@ public class SceneController : MonoBehaviour
         while (!sceneLoad.isDone)
         {
             levelLoadingWhileEvent.Invoke();
-            Debug.Log(sceneLoad.progress);
             
             //things to do while the level is >90% loaded
             if (sceneLoad.progress >= 0.9f)
