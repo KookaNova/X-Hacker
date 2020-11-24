@@ -1,6 +1,7 @@
 ﻿using System;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ImageBehavior : MonoBehaviour
@@ -41,5 +42,10 @@ public class ImageBehavior : MonoBehaviour
     public void StartFillBool(bool value)
     {
         increaseFill = value;
+    }
+
+    public void levelLoadProgressFill(SceneController sceneManagerObj)
+    {
+        image.fillAmount = sceneManagerObj.sceneLoad.progress;
     }
 }
