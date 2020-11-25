@@ -44,10 +44,10 @@ public class DialogueSystem : MonoBehaviour
     private void CloseText()
     {
         currentTextIndex--;
-        dialogueToDisplay[currentTextIndex].RunDialogueEvent();
         speakerDisplay.text = null;
         dialogueDisplay.text = null;
         backgroundBox.gameObject.SetActive(false);
+        dialogueToDisplay[currentTextIndex].RunDialogueEvent();
     }
 
 

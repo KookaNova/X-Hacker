@@ -10,14 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cbd07399d02f254fbe46ace76a6c346, type: 3}
-  m_Name: Start4
+  m_Name: Clock In
   m_EditorClassIdentifier: 
-  description: Hey, what's going on! The printer's are spewing paper and ink! Well,
-    I actually don't care what's going on, just hurry up and fix it!
+  description: Hey the computers are acting a little funky, I'll just vouch for you.
   dialogueEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: 2629c8fd4e4f1c847b2d571abbf0b245, type: 2}
+      - m_Target: {fileID: 11400000, guid: 1cdcb0e36f519754fbd2955133ca1763, type: 2}
         m_TargetAssemblyTypeName: GameAction, Assembly-CSharp
         m_MethodName: Raise
         m_Mode: 1
@@ -29,7 +28,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: f465f1f31d1d4e540a820e4e2e94c585, type: 2}
+      - m_Target: {fileID: 11400000, guid: 4862f81872182904f93f239a0a7496ed, type: 2}
         m_TargetAssemblyTypeName: GameAction, Assembly-CSharp
         m_MethodName: Raise
         m_Mode: 1
@@ -41,31 +40,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: 14db5973faac1574a818db9af3d3389b, type: 2}
-        m_TargetAssemblyTypeName: GameAction, Assembly-CSharp
-        m_MethodName: Raise
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: 394462d4af78cda43933570bec9c2906, type: 2}
-        m_TargetAssemblyTypeName: TaskDataSO, Assembly-CSharp
-        m_MethodName: IncrementValue
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: 9643fffaba3767e4ab6230c6a811166e, type: 2}
+      - m_Target: {fileID: 11400000, guid: 8833bc76a9a92154eacbe4e7e041d422, type: 2}
         m_TargetAssemblyTypeName: GameAction, Assembly-CSharp
         m_MethodName: Raise
         m_Mode: 1
