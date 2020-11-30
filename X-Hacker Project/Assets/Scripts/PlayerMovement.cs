@@ -13,20 +13,22 @@ public class PlayerMovement : MonoBehaviour
     } 
  
     public void Update() 
-    { 
-        _direction.x = Input.GetAxis("Horizontal"); 
-        _direction.z = Input.GetAxis("Vertical"); 
+    {
+        if (_controller.enabled)
+        {
+            _direction.x = Input.GetAxis("Horizontal"); 
+            _direction.z = Input.GetAxis("Vertical"); 
  
-        var movement = new Vector3(_direction.x, 0, _direction.z); 
+            var movement = new Vector3(_direction.x, 0, _direction.z); 
  
-        if (movement != Vector3.zero) 
-        { 
-            transform.rotation = Quaternion.Slerp(transform.rotation, 
-                Quaternion.LookRotation(movement), 0.25f); 
-        } 
+            if (movement != Vector3.zero) 
+            { 
+                transform.rotation = Quaternion.Slerp(transform.rotation, 
+                    Quaternion.LookRotation(movement), 0.25f); 
+            } 
          
-        movement.y -= gravity * 9 * Time.deltaTime; 
-        _controller.Move(movement * speed * Time.deltaTime);
- 
+            movement.y -= gravity * 9 * Time.deltaTime; 
+            _controller.Move(movement * speed * Time.deltaTime);
+        }
     } 
 }

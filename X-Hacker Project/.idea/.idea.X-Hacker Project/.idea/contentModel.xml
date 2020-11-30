@@ -38,15 +38,19 @@
           <e p="Narriation.cs" t="Include" />
           <e p="NarriationTest.cs" t="Include" />
           <e p="NarriationTrigger.cs" t="Include" />
+          <e p="NavMeshAgentBehavior.cs" t="Include" />
           <e p="PauseBehavior.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="PositionEventBehavior.cs" t="Include" />
           <e p="PrinterMiniGame.cs" t="Include" />
           <e p="SceneController.cs" t="Include" />
+          <e p="SimpleInteractionBehavior.cs" t="Include" />
           <e p="SpeakerBehavior.cs" t="Include" />
           <e p="TaskDataSO.cs" t="Include" />
           <e p="TaskSystem.cs" t="Include" />
           <e p="TextReplacementBehavior.cs" t="Include" />
+          <e p="TimedEventBehavior.cs" t="Include" />
+          <e p="TransformBehavior.cs" t="Include" />
           <e p="ValueCompareSO.cs" t="Include" />
           <e p="Vector3SO.cs" t="Include" />
         </e>
