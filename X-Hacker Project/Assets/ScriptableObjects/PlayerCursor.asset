@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: PlayerCursor
   m_EditorClassIdentifier: 
   handTexture: {fileID: 2800000, guid: f6d72a2e2bafbf44f8070632062cd0b2, type: 3}
-  computerTexture: {fileID: 2800000, guid: 793e076a6aad8344a9421e26e3052f20, type: 3}
+  computerTexture: {fileID: 2800000, guid: b59162a4f25620a47bb3df8eb508b1cb, type: 3}
   defaultTexture: {fileID: 0}
