@@ -1,7 +1,5 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.UI;
 
 public class DragDropUIBehavior : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
@@ -11,15 +9,6 @@ public class DragDropUIBehavior : MonoBehaviour, IPointerDownHandler, IPointerUp
     public bool xAxis, yAxis; //Any bool that is true can be dragged on that axis
     public float xMinLimit = 1, xMaxLimit = 1, yMinLimit = 1, yMaxLimit = 1;
     private float limitXMin, limitXMax, limitYMin, limitYMax; //these limit how far the object can be dragged in their respective axis, 0 means its original position
-
-    
-    /*
-     * what is the screen (window) height and width?
-     * origin of object
-     * how much room it has to move in each direction from origin point
-     * x = screen.width - origin.x
-     * factor in limits
-     */
 
     public void Start()
     {
@@ -67,6 +56,7 @@ public class DragDropUIBehavior : MonoBehaviour, IPointerDownHandler, IPointerUp
 
     private void FindScreenLimits()
     {
+        //This system actually really sucks and I'm sorry if anyone has to use this. -Brandon
         //Take current resolution and find the position of the object in that space
         curResolution = new Vector2(Screen.width, Screen.height);
         var xMax = curResolution.x - originalPosition.x;

@@ -2,9 +2,9 @@
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
 
-public class MouseOverEventBehavior : MonoBehaviour, IPointerEnterHandler
+public class MouseOverEventBehavior : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
-    public UnityEvent triggerEnteredEvent;
+    public UnityEvent triggerEnteredEvent, triggerExitedEvent;
     private Collider trigger;
     private bool triggerEntered;
     
@@ -21,5 +21,10 @@ public class MouseOverEventBehavior : MonoBehaviour, IPointerEnterHandler
     public void ResetBool()
     {
         triggerEntered = false;
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        triggerExitedEvent.Invoke();
     }
 }
