@@ -6,15 +6,17 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 5f, gravity = 1f; 
     private Vector3 _direction; 
     private CharacterController _controller;
+    private bool canMove;
  
     public void Start() 
     { 
-        _controller = GetComponent<CharacterController>(); 
+        _controller = GetComponent<CharacterController>();
+        canMove = true;
     } 
  
     public void Update() 
     {
-        if (_controller.enabled)
+        if (_controller.enabled && canMove)
         {
             _direction.x = Input.GetAxis("Horizontal"); 
             _direction.z = Input.GetAxis("Vertical"); 
@@ -30,5 +32,10 @@ public class PlayerMovement : MonoBehaviour
             movement.y -= gravity * 9 * Time.deltaTime; 
             _controller.Move(movement * speed * Time.deltaTime);
         }
-    } 
+    }
+
+    public void PlayerCanMove(bool value)
+    {
+        canMove = value;
+    }
 }
