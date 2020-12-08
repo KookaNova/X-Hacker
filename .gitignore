@@ -9,6 +9,7 @@ Build/
 Builds/
 Logs/
 MemoryCaptures/
+Build.app/
 
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
