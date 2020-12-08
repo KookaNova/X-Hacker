@@ -6,6 +6,7 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Text))]
 public class TaskSystem : MonoBehaviour
 {
+    public AudioSource completionAudio;
     public UnityEvent allTaskCompleteEvent;
     public List<TaskDataSO> taskList;
     
@@ -47,6 +48,7 @@ public class TaskSystem : MonoBehaviour
                 {
                     if (j.complete == true)
                         _completedTasks++;
+                    completionAudio.Play();
 
                 }
                 _taskText.text = _taskText.text + (i+1) + ". " + taskList[i].description + " COMPLETE " + "\n";
@@ -58,6 +60,7 @@ public class TaskSystem : MonoBehaviour
                 if (taskList[i].totalSteps > 1)
                 {
                     _taskText.text = _taskText.text + (i+1) + ". " + taskList[i].description + " (" + taskList[i].completedSteps + "/" + taskList[i].totalSteps + ")" + "\n";
+                    completionAudio.Play();
                 }
                 else
                 _taskText.text = _taskText.text + (i+1) + ". " + taskList[i].description + "\n";
