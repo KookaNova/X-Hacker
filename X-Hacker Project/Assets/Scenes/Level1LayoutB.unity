@@ -22891,9 +22891,33 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3412926565087123600, guid: 6a1231b0fc0a4054fb78c671c9917573, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3412926565087123600, guid: 6a1231b0fc0a4054fb78c671c9917573, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.35
+      objectReference: {fileID: 0}
     - target: {fileID: 3412926565087123601, guid: 6a1231b0fc0a4054fb78c671c9917573, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3412926565087123603, guid: 6a1231b0fc0a4054fb78c671c9917573, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2e66cb068555ef7498106d32c3e71547, type: 3}
+    - target: {fileID: 3412926565087123603, guid: 6a1231b0fc0a4054fb78c671c9917573, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3412926565087123603, guid: 6a1231b0fc0a4054fb78c671c9917573, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3412926565087123603, guid: 6a1231b0fc0a4054fb78c671c9917573, type: 3}
+      propertyPath: m_Color.b
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a1231b0fc0a4054fb78c671c9917573, type: 3}
@@ -39097,7 +39121,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3978821758676999538, guid: c224ce354dab06046acd86303f7728f5, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c224ce354dab06046acd86303f7728f5, type: 3}
@@ -39323,6 +39347,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 71565201912176232, guid: 2b83659754b8fb6499890fcceb0d0a35, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2902410879090464224, guid: 2b83659754b8fb6499890fcceb0d0a35, type: 3}
       propertyPath: m_Name
       value: Pause Menu
@@ -39437,6 +39465,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2902410880454243592, guid: 2b83659754b8fb6499890fcceb0d0a35, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6905327084200161908, guid: 2b83659754b8fb6499890fcceb0d0a35, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
