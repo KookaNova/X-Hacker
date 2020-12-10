@@ -9,6 +9,7 @@ Build/
 Builds/
 Logs/
 MemoryCaptures/
+Build.app/
 
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
@@ -66,3 +67,5 @@ crashlytics-build.properties
 X-Hacker Project/.idea/.idea.X-Hacker Project/.idea/workspace.xml
 
 X-Hacker Project/.idea/.idea.X-Hacker Project/.idea/misc.xml
+
+X-Hacker Project/Builds.app/
