@@ -8,8 +8,8 @@ using UnityEngine.UI;
 public class TaskSystem : MonoBehaviour
 {
     public AudioSource completionAudio;
-    public UnityEvent allTaskCompleteEvent;
     public List<TaskDataSO> taskList;
+    public UnityEvent allTaskCompleteEvent;
     
     private TextMeshProUGUI _taskText;
     private int _totalTasks;

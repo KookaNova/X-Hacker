@@ -78,7 +78,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Monetary Loss: $'
+  m_Text: 'Money Left: $'
 --- !u!1 &5364670475571714340
 GameObject:
   m_ObjectHideFlags: 0
@@ -277,7 +277,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 1.21
+          m_FloatArgument: -1.21
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -299,6 +299,7 @@ MonoBehaviour:
   Value: 0
   MaxValue: 1000
   WaitTime: 1
+  changeAmount: 1
   countedObj: {fileID: 11400000, guid: 93e12a8519287c943a6996184c3d63be, type: 2}
 --- !u!1 &5364670476161314399
 GameObject:

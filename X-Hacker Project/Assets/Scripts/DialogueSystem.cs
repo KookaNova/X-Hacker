@@ -4,8 +4,13 @@ using UnityEngine.UI;
 
 public class DialogueSystem : MonoBehaviour
 {
-    public Text speakerDisplay, dialogueDisplay;
+    [Header("Text Displays")]
+    public Text speakerDisplay;
+    public Text dialogueDisplay;
     public Image backgroundBox;
+    
+    [Header("Dialogue")]
+    [Tooltip("This info is sent by the speaker object. Thus, input is not required from the user.")]
     public int currentTextIndex;
     public List<DialogueSO> dialogueToDisplay;
     private bool _speakerActive = false;
