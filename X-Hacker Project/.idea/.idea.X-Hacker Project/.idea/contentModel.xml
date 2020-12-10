@@ -45,6 +45,7 @@
           <e p="PositionEventBehavior.cs" t="Include" />
           <e p="PrinterMiniGame.cs" t="Include" />
           <e p="SceneController.cs" t="Include" />
+          <e p="SettingMenu.cs" t="Include" />
           <e p="SimpleInteractionBehavior.cs" t="Include" />
           <e p="SpeakerBehavior.cs" t="Include" />
           <e p="TaskDataSO.cs" t="Include" />

@@ -1,22 +1,23 @@
 ﻿using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-[RequireComponent(typeof(Text))]
+[RequireComponent(typeof(TextMeshProUGUI))]
 public class TaskSystem : MonoBehaviour
 {
     public AudioSource completionAudio;
     public UnityEvent allTaskCompleteEvent;
     public List<TaskDataSO> taskList;
     
-    private Text _taskText;
+    private TextMeshProUGUI _taskText;
     private int _totalTasks;
     private int _completedTasks;
 
     public void Start()
     {
-        _taskText = GetComponent<Text>();
+        _taskText = GetComponent<TextMeshProUGUI>();
         foreach (var t in taskList)
         {
             t.completedSteps = 0;
