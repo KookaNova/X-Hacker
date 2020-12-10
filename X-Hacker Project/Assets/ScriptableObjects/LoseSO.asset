@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1513ff8ac08fca49a57fda86bac45cc, type: 3}
   m_Name: LoseSO
   m_EditorClassIdentifier: 
-  comparedValue: 1210
+  comparedValue: 0
   valueData: {fileID: 11400000, guid: edd65596ce67c8a42884fed54f773590, type: 2}
   greaterThan: 1
   lessThan: 0
