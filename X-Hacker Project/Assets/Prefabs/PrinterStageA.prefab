@@ -74,28 +74,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb36b483f3146e24f954234eaeffb170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  StartValue: 0
+  MaxValue: 100000
+  WaitTime: 0.01
+  countedObj: {fileID: 11400000, guid: edd65596ce67c8a42884fed54f773590, type: 2}
+  changeAmount: -0.1
   OnCountEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: edd65596ce67c8a42884fed54f773590, type: 2}
-        m_TargetAssemblyTypeName: FloatDataSO, Assembly-CSharp
-        m_MethodName: UpdateValue
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0.0001
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   OnEndEvent:
     m_PersistentCalls:
       m_Calls: []
-  Value: 0
-  MaxValue: 100000
-  WaitTime: 0.1
-  countedObj: {fileID: 11400000, guid: edd65596ce67c8a42884fed54f773590, type: 2}
 --- !u!1 &176106691528117058
 GameObject:
   m_ObjectHideFlags: 0
@@ -5156,7 +5145,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8425875448382366718
 Transform:
   m_ObjectHideFlags: 0

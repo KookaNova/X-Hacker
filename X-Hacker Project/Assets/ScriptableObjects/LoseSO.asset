@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   comparedValue: 0
   valueData: {fileID: 11400000, guid: edd65596ce67c8a42884fed54f773590, type: 2}
-  greaterThan: 1
-  lessThan: 0
+  greaterThan: 0
+  lessThan: 1
   equals: 1
   greaterThanEvent:
     m_PersistentCalls:

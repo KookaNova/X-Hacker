@@ -9,7 +9,7 @@ public class CounterBehavior : MonoBehaviour
 {
     [Header("Timer Values")] 
     public int StartValue = 0;
-    public int MinValue = 0, MaxValue = 1000;
+    public int MaxValue = 1000;
     public float WaitTime = 1;
     
     [Header("FloatData Values")]
@@ -32,7 +32,7 @@ public class CounterBehavior : MonoBehaviour
     {
         var waitObject = new WaitForSeconds(WaitTime);
         
-        while (_value < MaxValue && _value > MinValue)
+        while (_value < MaxValue)
         {
             yield return waitObject;
             OnCountEvent.Invoke();
