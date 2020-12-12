@@ -22,12 +22,6 @@ MonoBehaviour:
       m_Calls: []
   lessThanEvent:
     m_PersistentCalls:
-      m_Calls: []
-  equalsEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  greaterThanEqualsEvent:
-    m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: 2be77188bcb408647a2d4cc76f0da316, type: 2}
         m_TargetAssemblyTypeName: GameAction, Assembly-CSharp
@@ -41,6 +35,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  equalsEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  greaterThanEqualsEvent:
+    m_PersistentCalls:
+      m_Calls: []
   lessThanEqualsEvent:
     m_PersistentCalls:
       m_Calls: []

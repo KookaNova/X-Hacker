@@ -9,6 +9,7 @@
         <e p="Scripts" t="Include">
           <e p="AddRelativeForce.cs" t="Include" />
           <e p="AnimationEventBehavior.cs" t="Include" />
+          <e p="ChangeFillUI.cs" t="Include" />
           <e p="ComputerMiniGame.cs" t="Include" />
           <e p="CounterBehavior.cs" t="Include" />
           <e p="CursorSO.cs" t="Include" />
