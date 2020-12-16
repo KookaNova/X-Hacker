@@ -5,6 +5,8 @@ using UnityEngine;
 public class SpeakerBehavior : MonoBehaviour
 {
     public DialogueSystem dialogueSystem;
+    
+    [Header("Info sent to Dialogue System")]
     public string speakerName;
     public List<DialogueSO> dialogueList;
 

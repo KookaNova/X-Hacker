@@ -12,21 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1513ff8ac08fca49a57fda86bac45cc, type: 3}
   m_Name: LoseSO
   m_EditorClassIdentifier: 
-  comparedValue: 1210
+  comparedValue: 0
   valueData: {fileID: 11400000, guid: edd65596ce67c8a42884fed54f773590, type: 2}
-  greaterThan: 1
-  lessThan: 0
+  greaterThan: 0
+  lessThan: 1
   equals: 1
   greaterThanEvent:
     m_PersistentCalls:
       m_Calls: []
   lessThanEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  equalsEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  greaterThanEqualsEvent:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: 2be77188bcb408647a2d4cc76f0da316, type: 2}
@@ -41,6 +35,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  equalsEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  greaterThanEqualsEvent:
+    m_PersistentCalls:
+      m_Calls: []
   lessThanEqualsEvent:
     m_PersistentCalls:
       m_Calls: []
