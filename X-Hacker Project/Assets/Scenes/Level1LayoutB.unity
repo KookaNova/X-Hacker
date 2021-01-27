@@ -1195,6 +1195,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
+--- !u!198 &70544218 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3387068515170357616, guid: cd9a6e162848dd6408620bbabbe9209d, type: 3}
+  m_PrefabInstance: {fileID: 1450042183}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &70942961
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1830,6 +1835,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+--- !u!1 &130216180 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2547964179328325211, guid: c224ce354dab06046acd86303f7728f5, type: 3}
+  m_PrefabInstance: {fileID: 2547964178705986564}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &130216182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130216180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2dac03bb2e71314dbdf3ed3a9095d32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameActionObj: {fileID: 11400000, guid: da2b172829ebdc84c90286fa41adc16d, type: 2}
+  handlerEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 830412782}
+        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
+        m_MethodName: LoadLevel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &136307301 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5697449302764481824, guid: 874d44c85e34dff4f91d86abace695dc, type: 3}
@@ -3768,6 +3806,18 @@ PrefabInstance:
     - target: {fileID: 6601406897810907664, guid: cd9a6e162848dd6408620bbabbe9209d, type: 3}
       propertyPath: interactionEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6601406897810907664, guid: cd9a6e162848dd6408620bbabbe9209d, type: 3}
+      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.data[5].m_Target
+      value: 
+      objectReference: {fileID: 974568613}
+    - target: {fileID: 6601406897810907664, guid: cd9a6e162848dd6408620bbabbe9209d, type: 3}
+      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.data[5].m_MethodName
+      value: Stop
+      objectReference: {fileID: 0}
+    - target: {fileID: 6601406897810907664, guid: cd9a6e162848dd6408620bbabbe9209d, type: 3}
+      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.data[5].m_Mode
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6601406897810907666, guid: cd9a6e162848dd6408620bbabbe9209d, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -15619,7 +15669,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2547964179328325221, guid: c224ce354dab06046acd86303f7728f5, type: 3}
   m_PrefabInstance: {fileID: 2547964178705986564}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 130216180}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 14a7746af4fd8164b9c492b5f6e35755, type: 3}
@@ -16465,6 +16515,11 @@ RectTransform:
 --- !u!1 &972375789 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4195619817061135518, guid: cd9a6e162848dd6408620bbabbe9209d, type: 3}
+  m_PrefabInstance: {fileID: 431676087}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &974568613 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3387068515170357616, guid: cd9a6e162848dd6408620bbabbe9209d, type: 3}
   m_PrefabInstance: {fileID: 431676087}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &974738144 stripped
@@ -25541,6 +25596,18 @@ PrefabInstance:
       propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.data[4].m_Target
       value: 
       objectReference: {fileID: 974738144}
+    - target: {fileID: 6601406897810907664, guid: cd9a6e162848dd6408620bbabbe9209d, type: 3}
+      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.data[5].m_Target
+      value: 
+      objectReference: {fileID: 70544218}
+    - target: {fileID: 6601406897810907664, guid: cd9a6e162848dd6408620bbabbe9209d, type: 3}
+      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.data[5].m_MethodName
+      value: Stop
+      objectReference: {fileID: 0}
+    - target: {fileID: 6601406897810907664, guid: cd9a6e162848dd6408620bbabbe9209d, type: 3}
+      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.data[5].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6601406897810907666, guid: cd9a6e162848dd6408620bbabbe9209d, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
@@ -26592,6 +26659,18 @@ PrefabInstance:
       propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.data[4].m_Target
       value: 
       objectReference: {fileID: 974738144}
+    - target: {fileID: 6601406897810907664, guid: cd9a6e162848dd6408620bbabbe9209d, type: 3}
+      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.data[5].m_Target
+      value: 
+      objectReference: {fileID: 1906169426}
+    - target: {fileID: 6601406897810907664, guid: cd9a6e162848dd6408620bbabbe9209d, type: 3}
+      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.data[5].m_MethodName
+      value: Stop
+      objectReference: {fileID: 0}
+    - target: {fileID: 6601406897810907664, guid: cd9a6e162848dd6408620bbabbe9209d, type: 3}
+      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.data[5].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6601406897810907666, guid: cd9a6e162848dd6408620bbabbe9209d, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
@@ -36220,6 +36299,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbf19396858d66e44a9f187e36c443b5, type: 3}
+--- !u!198 &1906169426 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3387068515170357616, guid: cd9a6e162848dd6408620bbabbe9209d, type: 3}
+  m_PrefabInstance: {fileID: 1584839263}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1909842846 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7145221700754160594, guid: a05661d4758259141be27d1ced2241aa, type: 3}
@@ -38928,7 +39012,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1214731578500203991, guid: 1d54d2d60f79a9b41834ecac0f0ac0cf, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d54d2d60f79a9b41834ecac0f0ac0cf, type: 3}
