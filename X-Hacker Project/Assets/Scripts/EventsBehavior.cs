@@ -3,7 +3,7 @@ using UnityEngine.Events;
 
 public class EventsBehavior : MonoBehaviour
 {
-    public UnityEvent startEvent, fixedUpdateEvent;
+    public UnityEvent startEvent, fixedUpdateEvent, triggerEnterEvent, triggerExitEvent;
     
     void Start()
     {
@@ -13,5 +13,14 @@ public class EventsBehavior : MonoBehaviour
     void FixedUpdate()
     {
         fixedUpdateEvent.Invoke();
+    }
+
+    void OnTriggerEnter()
+    {
+        triggerEnterEvent.Invoke();
+    }
+    void OnTriggerExit()
+    {
+        triggerExitEvent.Invoke();
     }
 }

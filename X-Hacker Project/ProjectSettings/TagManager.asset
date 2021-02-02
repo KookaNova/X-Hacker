@@ -17,8 +17,8 @@ TagManager:
   - Post Processing
   - Dialogue
   - Player
-  - 
-  - 
+  - Camera
+  - Mask
   - 
   - 
   - 
@@ -41,4 +41,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Mask
+    uniqueID: 156237903
     locked: 0
