@@ -32,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
             if (movement != Vector3.zero) 
             { 
                 transform.forward = currentFwd;
-                transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(movement), 1.25f);
+                transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(movement), 2f);
             }
 
         //actual movement
