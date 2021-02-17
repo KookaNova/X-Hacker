@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class SpeakerBehavior : MonoBehaviour
 {
@@ -10,9 +11,17 @@ public class SpeakerBehavior : MonoBehaviour
     public string speakerName;
     public List<DialogueSO> dialogueList;
 
+    [Header("Trigger Events")]
+    public UnityEvent enterEvent, exitEvent;
+
+
     private void OnTriggerEnter(Collider player)
     {
-        SendDialogue();
+        enterEvent.Invoke();
+    }
+    private void OnTriggerExit(Collider player)
+    {
+         exitEvent.Invoke();
     }
 
     public void SendDialogue()
