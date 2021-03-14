@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6941279309341226880
+--- !u!114 &-1878214946879977746
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Glass_Mat
+  m_Name: WaterJug_Mat
   m_Shader: {fileID: -6465566751694194690, guid: 077e5f56775f9af46ab8d42b0149e3fb, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -65,11 +65,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Refraction: 0
-    - Scratch_Strength: 0.02
-    - Smoothness: 0.25
-    - Strong_Tint: 0
-    - Transparency: 0.56
+    - Refraction: 0.01
+    - Scratch_Strength: 0.11
+    - Smoothness: 0.87
+    - Strong_Tint: 1
+    - Transparency: 0.92
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -92,8 +92,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Specular_Color: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
-    - Tint: {r: 0, g: 0, b: 0, a: 1}
+    - Specular_Color: {r: 0.86440253, g: 0.81509435, b: 1, a: 1}
+    - Tint: {r: 0.41155213, g: 0.41846427, b: 0.5943396, a: 1}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
