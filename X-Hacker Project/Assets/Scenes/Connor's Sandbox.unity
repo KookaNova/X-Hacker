@@ -106,7 +106,7 @@ NavMeshSettings:
   m_BuildSettings:
     serializedVersion: 2
     agentTypeID: 0
-    agentRadius: 0.5
+    agentRadius: 0.22
     agentHeight: 2
     agentSlope: 45
     agentClimb: 0.4
@@ -114,7 +114,7 @@ NavMeshSettings:
     maxJumpAcrossDistance: 0
     minRegionArea: 2
     manualCellSize: 0
-    cellSize: 0.16666667
+    cellSize: 0.07333333
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 1830df0fb44dbc744b317482346fda87, type: 2}
 --- !u!1 &13892913
 GameObject:
   m_ObjectHideFlags: 0
@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 13892914}
   - component: {fileID: 13892915}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Spot Light (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -270,6 +270,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!1001 &27728736
@@ -327,6 +335,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
 --- !u!1 &30210853
@@ -339,7 +355,7 @@ GameObject:
   m_Component:
   - component: {fileID: 30210854}
   - component: {fileID: 30210855}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Spot Light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -437,6 +453,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window_Frame (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 8293936886000016375, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.7499995
@@ -503,6 +535,14 @@ PrefabInstance:
     - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_Name
       value: Wall_Office_Geo (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7414383131098179285, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_LocalPosition.x
@@ -610,6 +650,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Rug_Geo (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
 --- !u!1001 &72151662
@@ -666,6 +714,14 @@ PrefabInstance:
     - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
@@ -724,6 +780,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
 --- !u!1001 &79506556
@@ -736,6 +800,14 @@ PrefabInstance:
     - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_Name
       value: Wall_Office_Geo (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7414383131098179285, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_LocalPosition.x
@@ -798,7 +870,7 @@ GameObject:
   m_Component:
   - component: {fileID: 80604826}
   - component: {fileID: 80604827}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Spot Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -935,6 +1007,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!1001 &93571998
@@ -947,6 +1027,14 @@ PrefabInstance:
     - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_Name
       value: Wall_Office_Geo (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7414383131098179285, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1064,6 +1152,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!1001 &117150284
@@ -1120,6 +1216,14 @@ PrefabInstance:
     - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
       propertyPath: m_Name
       value: Floor_Wood_Geo (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
@@ -1182,6 +1286,10 @@ PrefabInstance:
     - target: {fileID: 4684306336292119773, guid: a71aec264bcbdc4488f545a1e47b5966, type: 3}
       propertyPath: m_Name
       value: Desktop_Monitor_Geo (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4684306336292119773, guid: a71aec264bcbdc4488f545a1e47b5966, type: 3}
+      propertyPath: m_Layer
+      value: 16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a71aec264bcbdc4488f545a1e47b5966, type: 3}
@@ -1322,6 +1430,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
 --- !u!1 &199289071
@@ -1433,7 +1549,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 203058443}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Lighting
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1593,6 +1709,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Carpeted_Geo
       objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
 --- !u!1001 &240254947
@@ -1650,6 +1774,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!1001 &253310162
@@ -1662,6 +1794,14 @@ PrefabInstance:
     - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_Name
       value: Wall_Office_Geo (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7414383131098179285, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1779,6 +1919,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
 --- !u!4 &275071306 stripped
@@ -1801,6 +1949,14 @@ PrefabInstance:
     - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_Name
       value: Wall_Office_Geo (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7414383131098179285, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1863,6 +2019,22 @@ PrefabInstance:
     - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
       propertyPath: m_Name
       value: Window_Frame (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8293936886000016375, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1970,6 +2142,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
 --- !u!1001 &330909522
@@ -2026,6 +2206,14 @@ PrefabInstance:
     - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
       propertyPath: m_Name
       value: Floor_Rug_Geo (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
@@ -2094,6 +2282,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!4 &385738861 stripped
@@ -2111,6 +2307,10 @@ PrefabInstance:
     - target: {fileID: 2352716956027983986, guid: 5303904a3f249a445ad2d034f61b71e3, type: 3}
       propertyPath: m_Name
       value: Computer_Tower_Geo (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2352716956027983986, guid: 5303904a3f249a445ad2d034f61b71e3, type: 3}
+      propertyPath: m_Layer
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 5569489946183102935, guid: 5303904a3f249a445ad2d034f61b71e3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2218,6 +2418,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Rug_Geo (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
 --- !u!4 &436015646 stripped
@@ -2290,6 +2498,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!1001 &474009122
@@ -2302,6 +2518,14 @@ PrefabInstance:
     - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_Name
       value: Wall_Blue (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2844936117492869977, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2365,6 +2589,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Office_Geo (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 7414383131098179285, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.75
@@ -2426,7 +2658,7 @@ GameObject:
   m_Component:
   - component: {fileID: 483112074}
   - component: {fileID: 483112075}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Spot Light (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2523,7 +2755,7 @@ GameObject:
   m_Component:
   - component: {fileID: 494449923}
   - component: {fileID: 494449924}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Spot Light (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2665,6 +2897,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
 --- !u!1 &526020935
@@ -2677,7 +2917,7 @@ GameObject:
   m_Component:
   - component: {fileID: 526020936}
   - component: {fileID: 526020937}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Spot Light (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2769,6 +3009,14 @@ PrefabInstance:
     - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_Name
       value: Wall_Office_Geo (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7414383131098179285, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2876,6 +3124,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
 --- !u!4 &536622106 stripped
@@ -2938,6 +3194,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
 --- !u!4 &556042157 stripped
@@ -2960,7 +3224,7 @@ GameObject:
   m_Component:
   - component: {fileID: 574453851}
   - component: {fileID: 574453852}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Spot Light (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3052,6 +3316,14 @@ PrefabInstance:
     - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_Name
       value: Wall_Blue (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2844936117492869977, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3159,6 +3431,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
 --- !u!4 &600336191 stripped
@@ -3224,6 +3504,22 @@ PrefabInstance:
     - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
       propertyPath: m_Name
       value: Window_Frame (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8293936886000016375, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3335,6 +3631,14 @@ PrefabInstance:
     - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
@@ -3452,6 +3756,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
 --- !u!4 &634905552 stripped
@@ -3514,6 +3826,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!1001 &654481787
@@ -3570,6 +3890,14 @@ PrefabInstance:
     - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
       propertyPath: m_Name
       value: Floor_Rug_Geo (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
@@ -3658,6 +3986,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Rug_Geo (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
 --- !u!4 &670095297 stripped
@@ -3680,6 +4016,14 @@ PrefabInstance:
     - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_Name
       value: Wall_Blue (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2844936117492869977, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3742,7 +4086,7 @@ GameObject:
   m_Component:
   - component: {fileID: 696481973}
   - component: {fileID: 696481974}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Spot Light (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3834,7 +4178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 697085418}
   - component: {fileID: 697085419}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Spot Light (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3926,7 +4270,7 @@ GameObject:
   m_Component:
   - component: {fileID: 704653867}
   - component: {fileID: 704653868}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Spot Light (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4018,6 +4362,10 @@ PrefabInstance:
     - target: {fileID: 2438444909910458987, guid: 4714d392a50ebd34cbde72c441271ee6, type: 3}
       propertyPath: m_Name
       value: Desk_Geo (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2438444909910458987, guid: 4714d392a50ebd34cbde72c441271ee6, type: 3}
+      propertyPath: m_Layer
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 3278329396253603812, guid: 4714d392a50ebd34cbde72c441271ee6, type: 3}
       propertyPath: m_Size.y
@@ -4218,6 +4566,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
 --- !u!4 &725239975 stripped
@@ -4280,6 +4636,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
 --- !u!4 &729700690 stripped
@@ -4296,12 +4660,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 735365248}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &735365248
 Transform:
@@ -4451,6 +4815,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!4 &745520467 stripped
@@ -4513,6 +4885,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
 --- !u!1 &754751950
@@ -4525,7 +4905,7 @@ GameObject:
   m_Component:
   - component: {fileID: 754751951}
   - component: {fileID: 754751952}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Spot Light (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4700,7 +5080,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 834623721}
+  - {fileID: 932454966}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4759,6 +5139,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
 --- !u!1001 &792746453
@@ -4771,6 +5159,14 @@ PrefabInstance:
     - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_Name
       value: Wall_Office_Geo (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7414383131098179285, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4883,6 +5279,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Rug_Geo (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
 --- !u!1001 &805516950
@@ -4940,6 +5344,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
 --- !u!4 &805516951 stripped
@@ -4959,7 +5371,7 @@ GameObject:
   - component: {fileID: 805570154}
   - component: {fileID: 805570153}
   - component: {fileID: 805570152}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5098,6 +5510,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
 --- !u!4 &807695859 stripped
@@ -5160,6 +5580,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Rug_Geo (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
 --- !u!4 &813280306 stripped
@@ -5221,6 +5649,14 @@ PrefabInstance:
     - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
       propertyPath: m_Name
       value: Floor_Rug_Geo (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
@@ -5318,68 +5754,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &834623720
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 770843849}
-    m_Modifications:
-    - target: {fileID: 140431027883121048, guid: d0cb1d9b72b3781419c6bd66f6e2de2f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -22.705347
-      objectReference: {fileID: 0}
-    - target: {fileID: 140431027883121048, guid: d0cb1d9b72b3781419c6bd66f6e2de2f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 140431027883121048, guid: d0cb1d9b72b3781419c6bd66f6e2de2f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 7.8277507
-      objectReference: {fileID: 0}
-    - target: {fileID: 140431027883121048, guid: d0cb1d9b72b3781419c6bd66f6e2de2f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 140431027883121048, guid: d0cb1d9b72b3781419c6bd66f6e2de2f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 140431027883121048, guid: d0cb1d9b72b3781419c6bd66f6e2de2f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 140431027883121048, guid: d0cb1d9b72b3781419c6bd66f6e2de2f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 140431027883121048, guid: d0cb1d9b72b3781419c6bd66f6e2de2f, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 140431027883121048, guid: d0cb1d9b72b3781419c6bd66f6e2de2f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 140431027883121048, guid: d0cb1d9b72b3781419c6bd66f6e2de2f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 140431027883121048, guid: d0cb1d9b72b3781419c6bd66f6e2de2f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 140431027883121049, guid: d0cb1d9b72b3781419c6bd66f6e2de2f, type: 3}
-      propertyPath: m_Name
-      value: NPC Base
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d0cb1d9b72b3781419c6bd66f6e2de2f, type: 3}
---- !u!4 &834623721 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 140431027883121048, guid: d0cb1d9b72b3781419c6bd66f6e2de2f, type: 3}
-  m_PrefabInstance: {fileID: 834623720}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &838856893 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3600165291806211680, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
@@ -5405,6 +5779,22 @@ PrefabInstance:
     - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
       propertyPath: m_Name
       value: Window_Frame (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8293936886000016375, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5522,6 +5912,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
 --- !u!4 &896738788 stripped
@@ -5529,6 +5927,107 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2312295499815856800, guid: 167acb582c10c9649a6b940db723105f, type: 3}
   m_PrefabInstance: {fileID: 896738787}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &899896540
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 770843849}
+    m_Modifications:
+    - target: {fileID: 209588199045515756, guid: 63f3b10a1b45af14ea0b759bf57abdbc, type: 3}
+      propertyPath: m_Radius
+      value: 0.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 209588199045515756, guid: 63f3b10a1b45af14ea0b759bf57abdbc, type: 3}
+      propertyPath: m_StoppingDistance
+      value: 2.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4517233578183035433, guid: 63f3b10a1b45af14ea0b759bf57abdbc, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4517233579716386237, guid: 63f3b10a1b45af14ea0b759bf57abdbc, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4517233579915479104, guid: 63f3b10a1b45af14ea0b759bf57abdbc, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4558374303253184106, guid: 63f3b10a1b45af14ea0b759bf57abdbc, type: 3}
+      propertyPath: m_Name
+      value: NPC New
+      objectReference: {fileID: 0}
+    - target: {fileID: 4558374303253184106, guid: 63f3b10a1b45af14ea0b759bf57abdbc, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4558374303253184107, guid: 63f3b10a1b45af14ea0b759bf57abdbc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -22.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4558374303253184107, guid: 63f3b10a1b45af14ea0b759bf57abdbc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4558374303253184107, guid: 63f3b10a1b45af14ea0b759bf57abdbc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4558374303253184107, guid: 63f3b10a1b45af14ea0b759bf57abdbc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4558374303253184107, guid: 63f3b10a1b45af14ea0b759bf57abdbc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9489928
+      objectReference: {fileID: 0}
+    - target: {fileID: 4558374303253184107, guid: 63f3b10a1b45af14ea0b759bf57abdbc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4558374303253184107, guid: 63f3b10a1b45af14ea0b759bf57abdbc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.31529802
+      objectReference: {fileID: 0}
+    - target: {fileID: 4558374303253184107, guid: 63f3b10a1b45af14ea0b759bf57abdbc, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4558374303253184107, guid: 63f3b10a1b45af14ea0b759bf57abdbc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4558374303253184107, guid: 63f3b10a1b45af14ea0b759bf57abdbc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -143.242
+      objectReference: {fileID: 0}
+    - target: {fileID: 4558374303253184107, guid: 63f3b10a1b45af14ea0b759bf57abdbc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4558374304852571881, guid: 63f3b10a1b45af14ea0b759bf57abdbc, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4558374304852571882, guid: 63f3b10a1b45af14ea0b759bf57abdbc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 4558374304852571883, guid: 63f3b10a1b45af14ea0b759bf57abdbc, type: 3}
+      propertyPath: m_Radius
+      value: 1.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 4558374304852571883, guid: 63f3b10a1b45af14ea0b759bf57abdbc, type: 3}
+      propertyPath: m_Height
+      value: 2.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 4558374305017395973, guid: 63f3b10a1b45af14ea0b759bf57abdbc, type: 3}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 63f3b10a1b45af14ea0b759bf57abdbc, type: 3}
 --- !u!1001 &901476835
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5583,6 +6082,14 @@ PrefabInstance:
     - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
@@ -5646,6 +6153,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Rug_Geo (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
 --- !u!1001 &920225870
@@ -5658,6 +6173,14 @@ PrefabInstance:
     - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_Name
       value: Wall_Office_Geo (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7414383131098179285, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5752,7 +6275,7 @@ GameObject:
   m_Component:
   - component: {fileID: 922599144}
   - component: {fileID: 922599145}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Spot Light (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5889,6 +6412,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
 --- !u!4 &923984924 stripped
@@ -5906,6 +6437,14 @@ PrefabInstance:
     - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_Name
       value: Wall_Office_Geo (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7414383131098179285, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5958,6 +6497,42 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7414383131098179285, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
   m_PrefabInstance: {fileID: 930273302}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &932454965 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4558374303253184106, guid: 63f3b10a1b45af14ea0b759bf57abdbc, type: 3}
+  m_PrefabInstance: {fileID: 899896540}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &932454966 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4558374303253184107, guid: 63f3b10a1b45af14ea0b759bf57abdbc, type: 3}
+  m_PrefabInstance: {fileID: 899896540}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &932454968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932454965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb72b5b400cb2a74091bde14a8eee8c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!136 &932454969
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932454965}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 1.82
+  m_Height: 4.69
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.81, z: 0}
 --- !u!1001 &939637357
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5968,6 +6543,10 @@ PrefabInstance:
     - target: {fileID: 2352716956027983986, guid: 5303904a3f249a445ad2d034f61b71e3, type: 3}
       propertyPath: m_Name
       value: Computer_Tower_Geo (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2352716956027983986, guid: 5303904a3f249a445ad2d034f61b71e3, type: 3}
+      propertyPath: m_Layer
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 5569489946183102935, guid: 5303904a3f249a445ad2d034f61b71e3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6075,6 +6654,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Rug_Geo (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
 --- !u!1001 &957202744
@@ -6087,6 +6674,14 @@ PrefabInstance:
     - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_Name
       value: Wall_Blue (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2844936117492869977, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6204,6 +6799,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
 --- !u!1001 &988274060
@@ -6260,6 +6863,14 @@ PrefabInstance:
     - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
       propertyPath: m_Name
       value: Floor_Wood_Geo (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
@@ -6328,6 +6939,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
 --- !u!1001 &1006749177
@@ -6340,6 +6959,14 @@ PrefabInstance:
     - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_Name
       value: Wall_Office_Geo (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7414383131098179285, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6403,6 +7030,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Glass_Wall (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2910536239327376789, guid: 1d33283bcd60ac04bb4651f26e007425, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2910536239327376789, guid: 1d33283bcd60ac04bb4651f26e007425, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 7684088904991084270, guid: 1d33283bcd60ac04bb4651f26e007425, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6
@@ -6464,7 +7099,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1013738802}
   - component: {fileID: 1013738803}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Spot Light (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6662,6 +7297,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Office_Geo (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 7414383131098179285, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7
@@ -6728,6 +7371,14 @@ PrefabInstance:
     - target: {fileID: 2910536239327376789, guid: 1d33283bcd60ac04bb4651f26e007425, type: 3}
       propertyPath: m_Name
       value: Glass_Wall (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2910536239327376789, guid: 1d33283bcd60ac04bb4651f26e007425, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2910536239327376789, guid: 1d33283bcd60ac04bb4651f26e007425, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7684088904991084270, guid: 1d33283bcd60ac04bb4651f26e007425, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6845,6 +7496,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!1 &1057280615
@@ -6856,7 +7515,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1057280616}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: Furniture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6894,6 +7553,22 @@ PrefabInstance:
     - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
       propertyPath: m_Name
       value: Window_Frame (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8293936886000016375, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7001,6 +7676,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
 --- !u!4 &1101275837 stripped
@@ -7018,6 +7701,14 @@ PrefabInstance:
     - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_Name
       value: Wall_Office_Geo (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7414383131098179285, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7080,6 +7771,14 @@ PrefabInstance:
     - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_Name
       value: Wall_Office_Geo (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7414383131098179285, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7187,6 +7886,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Rug_Geo (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
 --- !u!1001 &1156097007
@@ -7199,6 +7906,22 @@ PrefabInstance:
     - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
       propertyPath: m_Name
       value: Window_Frame (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8293936886000016375, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7306,6 +8029,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
 --- !u!1001 &1161141912
@@ -7318,6 +8049,14 @@ PrefabInstance:
     - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_Name
       value: Wall_Office_Geo (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7414383131098179285, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7425,6 +8164,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Rug_Geo (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
 --- !u!4 &1161734146 stripped
@@ -7492,6 +8239,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Rug_Geo (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
 --- !u!1001 &1172493386
@@ -7548,6 +8303,14 @@ PrefabInstance:
     - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
       propertyPath: m_Name
       value: Floor_Rug_Geo (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
@@ -7611,6 +8374,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Rug_Geo (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
 --- !u!1001 &1209063618
@@ -7623,6 +8394,14 @@ PrefabInstance:
     - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_Name
       value: Wall_Blue (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2844936117492869977, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7687,7 +8466,7 @@ GameObject:
   - component: {fileID: 1212076986}
   - component: {fileID: 1212076985}
   - component: {fileID: 1212076984}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Plane (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7826,6 +8605,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Rug_Geo
       objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
 --- !u!4 &1234492014 stripped
@@ -7843,6 +8630,14 @@ PrefabInstance:
     - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_Name
       value: Wall_Office_Geo (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7414383131098179285, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7905,6 +8700,10 @@ PrefabInstance:
     - target: {fileID: 2438444909910458987, guid: 4714d392a50ebd34cbde72c441271ee6, type: 3}
       propertyPath: m_Name
       value: Desk_Geo
+      objectReference: {fileID: 0}
+    - target: {fileID: 2438444909910458987, guid: 4714d392a50ebd34cbde72c441271ee6, type: 3}
+      propertyPath: m_Layer
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 3278329396253603812, guid: 4714d392a50ebd34cbde72c441271ee6, type: 3}
       propertyPath: m_Size.y
@@ -7990,6 +8789,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window_Frame (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 8293936886000016375, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.7499995
@@ -8050,7 +8865,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1280876743}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: --- Structure
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8163,6 +8978,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!1001 &1307221650
@@ -8220,6 +9043,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!1001 &1362193536
@@ -8232,6 +9063,22 @@ PrefabInstance:
     - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
       propertyPath: m_Name
       value: Window_Frame (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8293936886000016375, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8294,7 +9141,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1373677194}
   - component: {fileID: 1373677195}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Spot Light (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8524,6 +9371,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
 --- !u!1001 &1433666107
@@ -8580,6 +9435,14 @@ PrefabInstance:
     - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
@@ -8643,6 +9506,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
 --- !u!1001 &1439752873
@@ -8699,6 +9570,14 @@ PrefabInstance:
     - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
       propertyPath: m_Name
       value: Floor_Wood_Geo (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
@@ -8757,6 +9636,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
 --- !u!1 &1453054370
@@ -8768,12 +9655,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1453054371}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1453054371
 Transform:
@@ -8854,7 +9741,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1457179488}
   - component: {fileID: 1457179489}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Spot Light (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8946,7 +9833,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1464302398}
   - component: {fileID: 1464302399}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Spot Light (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9083,6 +9970,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Rug_Geo (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
 --- !u!1001 &1481424843
@@ -9095,6 +9990,22 @@ PrefabInstance:
     - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
       propertyPath: m_Name
       value: Window_Frame
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8293936886000016375, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9207,6 +10118,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!1001 &1494641786
@@ -9263,6 +10182,14 @@ PrefabInstance:
     - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
@@ -9326,6 +10253,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Rug_Geo (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
 --- !u!1001 &1503239850
@@ -9338,6 +10273,14 @@ PrefabInstance:
     - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_Name
       value: Wall_Office_Geo (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7414383131098179285, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9441,6 +10384,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Glass_Wall
       objectReference: {fileID: 0}
+    - target: {fileID: 2910536239327376789, guid: 1d33283bcd60ac04bb4651f26e007425, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2910536239327376789, guid: 1d33283bcd60ac04bb4651f26e007425, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 7684088904991084270, guid: 1d33283bcd60ac04bb4651f26e007425, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1
@@ -9502,6 +10453,14 @@ PrefabInstance:
     - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_Name
       value: Wall_Office_Geo
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7414383131098179285, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9619,6 +10578,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!1001 &1609139520
@@ -9631,6 +10598,10 @@ PrefabInstance:
     - target: {fileID: 2352716956027983986, guid: 5303904a3f249a445ad2d034f61b71e3, type: 3}
       propertyPath: m_Name
       value: Computer_Tower_Geo
+      objectReference: {fileID: 0}
+    - target: {fileID: 2352716956027983986, guid: 5303904a3f249a445ad2d034f61b71e3, type: 3}
+      propertyPath: m_Layer
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 5569489946183102935, guid: 5303904a3f249a445ad2d034f61b71e3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9695,7 +10666,7 @@ GameObject:
   - component: {fileID: 1611327490}
   - component: {fileID: 1611327489}
   - component: {fileID: 1611327488}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Plane (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9839,6 +10810,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
 --- !u!4 &1635281816 stripped
@@ -9856,7 +10835,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1661176310}
   - component: {fileID: 1661176311}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Spot Light (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9949,6 +10928,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window_Frame (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 8293936886000016375, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3
@@ -10011,6 +11006,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Office_Geo (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 7414383131098179285, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.75
@@ -10072,7 +11075,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1690088125}
   - component: {fileID: 1690088126}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Spot Light (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10170,6 +11173,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window_Frame (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 8293936886000016375, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4
@@ -10231,6 +11250,14 @@ PrefabInstance:
     - target: {fileID: 2910536239327376789, guid: 1d33283bcd60ac04bb4651f26e007425, type: 3}
       propertyPath: m_Name
       value: Glass_Wall (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2910536239327376789, guid: 1d33283bcd60ac04bb4651f26e007425, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2910536239327376789, guid: 1d33283bcd60ac04bb4651f26e007425, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7684088904991084270, guid: 1d33283bcd60ac04bb4651f26e007425, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10298,6 +11325,10 @@ PrefabInstance:
     - target: {fileID: 2438444909910458987, guid: 4714d392a50ebd34cbde72c441271ee6, type: 3}
       propertyPath: m_Name
       value: Desk_Geo (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2438444909910458987, guid: 4714d392a50ebd34cbde72c441271ee6, type: 3}
+      propertyPath: m_Layer
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 3278329396253603812, guid: 4714d392a50ebd34cbde72c441271ee6, type: 3}
       propertyPath: m_Size.y
@@ -10422,6 +11453,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
 --- !u!1 &1766644736
@@ -10434,7 +11473,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1766644737}
   - component: {fileID: 1766644738}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Spot Light (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10571,6 +11610,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
 --- !u!4 &1772560479 stripped
@@ -10633,6 +11680,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!1 &1782391586
@@ -10679,6 +11734,14 @@ PrefabInstance:
     - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_Name
       value: Wall_Blue (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2844936117492869977, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10791,6 +11854,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
 --- !u!4 &1798078755 stripped
@@ -10808,6 +11879,14 @@ PrefabInstance:
     - target: {fileID: 2910536239327376789, guid: 1d33283bcd60ac04bb4651f26e007425, type: 3}
       propertyPath: m_Name
       value: Glass_Wall (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2910536239327376789, guid: 1d33283bcd60ac04bb4651f26e007425, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2910536239327376789, guid: 1d33283bcd60ac04bb4651f26e007425, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7684088904991084270, guid: 1d33283bcd60ac04bb4651f26e007425, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10915,6 +11994,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Wood_Geo (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497676549718322079, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9641a9357b108a7408eec1f6acaf2f84, type: 3}
 --- !u!1001 &1823454858
@@ -10927,6 +12014,14 @@ PrefabInstance:
     - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_Name
       value: Wall_Blue (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2844936117492869977, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11034,6 +12129,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Rug_Geo (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
 --- !u!1001 &1864052389
@@ -11046,6 +12149,14 @@ PrefabInstance:
     - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_Name
       value: Wall_Office_Geo (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7414383131098179285, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11203,6 +12314,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Blue (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1801212243665189617, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 2844936117492869977, guid: d2bc2590b2c77c84bb91ae76bf1728c6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.75
@@ -11309,6 +12428,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Rug_Geo (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
 --- !u!4 &1874193212 stripped
@@ -11371,6 +12498,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
 --- !u!4 &1874885213 stripped
@@ -11388,6 +12523,14 @@ PrefabInstance:
     - target: {fileID: 2910536239327376789, guid: 1d33283bcd60ac04bb4651f26e007425, type: 3}
       propertyPath: m_Name
       value: Glass_Wall (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2910536239327376789, guid: 1d33283bcd60ac04bb4651f26e007425, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2910536239327376789, guid: 1d33283bcd60ac04bb4651f26e007425, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7684088904991084270, guid: 1d33283bcd60ac04bb4651f26e007425, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11495,6 +12638,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Rug_Geo (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
 --- !u!4 &1899497986 stripped
@@ -11557,6 +12708,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
 --- !u!4 &1899928368 stripped
@@ -11574,6 +12733,14 @@ PrefabInstance:
     - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_Name
       value: Wall_Office_Geo (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7414383131098179285, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11636,7 +12803,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1917758479}
   - component: {fileID: 1917758480}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Spot Light (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11729,6 +12896,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window_Frame (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 8293936886000016375, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2
@@ -11791,6 +12974,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Window_Frame (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 8293936886000016375, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6
@@ -11852,6 +13051,22 @@ PrefabInstance:
     - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
       propertyPath: m_Name
       value: Window_Frame (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8293936886000016375, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11924,7 +13139,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1987277142}
   - component: {fileID: 1987277143}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Spot Light (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12016,6 +13231,22 @@ PrefabInstance:
     - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
       propertyPath: m_Name
       value: Window_Frame (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8293936886000016375, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12220,6 +13451,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
 --- !u!4 &2025453012 stripped
@@ -12304,6 +13543,14 @@ PrefabInstance:
     - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_Name
       value: Wall_Office_Geo (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6521116318076378035, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7414383131098179285, guid: 2ec41666cc1f83847a1c04e8aad49805, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12411,6 +13658,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Rug_Geo (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828657270327324379, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7b14b7b9bd496d4a8a25932d0fd2fe8, type: 3}
 --- !u!4 &2065707533 stripped
@@ -12428,6 +13683,14 @@ PrefabInstance:
     - target: {fileID: 2910536239327376789, guid: 1d33283bcd60ac04bb4651f26e007425, type: 3}
       propertyPath: m_Name
       value: Glass_Wall (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2910536239327376789, guid: 1d33283bcd60ac04bb4651f26e007425, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2910536239327376789, guid: 1d33283bcd60ac04bb4651f26e007425, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7684088904991084270, guid: 1d33283bcd60ac04bb4651f26e007425, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12535,6 +13798,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor_Carpeted_Geo (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717495605438038593, guid: 167acb582c10c9649a6b940db723105f, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 167acb582c10c9649a6b940db723105f, type: 3}
 --- !u!4 &2080275844 stripped
@@ -12557,6 +13828,22 @@ PrefabInstance:
     - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
       propertyPath: m_Name
       value: Window_Frame (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8293936886000016375, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12619,6 +13906,22 @@ PrefabInstance:
     - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
       propertyPath: m_Name
       value: Window_Frame (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8293936886000016375, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12721,7 +14024,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2117148043}
   - component: {fileID: 2117148044}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Spot Light (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12964,6 +14267,22 @@ PrefabInstance:
     - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
       propertyPath: m_Name
       value: Window_Frame (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5843025387687989332, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675828859191130881, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
+      propertyPath: m_Layer
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8293936886000016375, guid: fe3976240cedb5e44bf76b011a046a70, type: 3}
       propertyPath: m_LocalPosition.x
