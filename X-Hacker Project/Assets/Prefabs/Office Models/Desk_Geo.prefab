@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2903327337130871278}
   - component: {fileID: 147556470838497367}
   - component: {fileID: 3278329396253603812}
+  - component: {fileID: 3699802186447481539}
   m_Layer: 0
   m_Name: Desk_Geo
   m_TagString: Untagged
@@ -95,3 +96,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.9368718, y: 1.5158157, z: 0.7747487}
   m_Center: {x: -0, y: 0.75790787, z: -0}
+--- !u!208 &3699802186447481539
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2438444909910458987}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.96800005, y: 0.386, z: 0.38700002}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.386, z: 0}
+  m_TimeToStationary: 0.5

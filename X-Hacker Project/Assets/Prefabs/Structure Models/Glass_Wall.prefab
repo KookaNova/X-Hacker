@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1851354089073499717}
   - component: {fileID: 6700387350136852339}
   - component: {fileID: 7357523860903358624}
+  - component: {fileID: 3630482920549526931}
   m_Layer: 0
   m_Name: Glass_Wall
   m_TagString: Untagged
@@ -95,3 +96,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 3, z: 0.038096894}
   m_Center: {x: 0, y: 1.5, z: 0.019254813}
+--- !u!208 &3630482920549526931
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2910536239327376789}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1, y: 1.5000001, z: 0.019000001}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 1.5000001, z: 0.019000001}
+  m_TimeToStationary: 0.5
