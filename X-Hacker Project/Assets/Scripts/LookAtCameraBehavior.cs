@@ -2,7 +2,7 @@
 
 public class LookAtCameraBehavior : MonoBehaviour
 {
-    private void OnEnable()
+    private void Update()
     {
         transform.rotation = Camera.main.transform.rotation;
     }

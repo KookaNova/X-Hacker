@@ -1,20 +1,30 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
+using System.Threading;
 using UnityEngine;
 using UnityEngine.Events;
 
 public class CounterBehavior : MonoBehaviour
 {
-
-    public UnityEvent OnCountEvent, OnEndEvent;
-
-    public int Value = 0, MaxValue = 1000;
-    //1000 seconds is approximately 16 minutes to complete the objective. More than enough.
+    [Header("Timer Values")] 
+    public int StartValue = 0;
+    public int MaxValue = 1000;
     public float WaitTime = 1;
+    
+    [Header("FloatData Values")]
     public FloatDataSO countedObj;
+    public float changeAmount;
+
+    [Header("Events")] 
+    public UnityEvent OnCountEvent;
+    public UnityEvent OnEndEvent;
+    
+    private int _value = 0;
 
     public void StartCounter()
     {
+        _value = StartValue;
         StartCoroutine(RunCounter());
     }
 
@@ -22,12 +32,12 @@ public class CounterBehavior : MonoBehaviour
     {
         var waitObject = new WaitForSeconds(WaitTime);
         
-        while (Value < MaxValue)
+        while (_value < MaxValue)
         {
             yield return waitObject;
             OnCountEvent.Invoke();
-            Value++;
-            countedObj.UpdateValue(1);
+            _value++;
+            UpdateData();
         }
 
         yield return waitObject;
@@ -35,4 +45,11 @@ public class CounterBehavior : MonoBehaviour
         //Idea is that the counter gets too high and you get fired a.k.a. you lose.
         //We would set the max really high though.
     }
+
+    private void UpdateData()
+    {
+        countedObj.UpdateValue(changeAmount);
+    }
+    
+    
 }

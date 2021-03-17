@@ -6,39 +6,39 @@ using UnityEngine.Events;
 public class PlayerMovement : MonoBehaviour
 {
     public float speed = 5f, gravity = 1f;
-    public UnityEvent movingEvent;
+    public Transform cameraTransform;
     private Vector3 _direction, movement; 
     private CharacterController _controller;
-    private bool canMove;
  
     public void Start() 
     { 
         _controller = GetComponent<CharacterController>();
-        canMove = true;
+        
     } 
  
     public void Update() 
     {
-        if (_controller.enabled && canMove)
+        if(_controller.enabled)
         {
-            _direction.x = Input.GetAxis("Horizontal"); 
-            _direction.z = Input.GetAxis("Vertical"); 
- 
-            movement = new Vector3(_direction.x, 0, _direction.z); 
- 
+            var currentFwd = cameraTransform.forward;
+            var currentX = cameraTransform.right;
+
+            _direction.x = Input.GetAxis("Horizontal");
+            _direction.z = Input.GetAxis("Vertical");
+
+            movement = (currentX * _direction.x) + (currentFwd * _direction.z);
+
+            //controls look direction
             if (movement != Vector3.zero) 
             { 
-                transform.rotation = Quaternion.Slerp(transform.rotation, 
-                    Quaternion.LookRotation(movement), 0.25f);
+                transform.forward = currentFwd;
+                transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(movement), 2f);
             }
-         
-            movement.y -= gravity * 9 * Time.deltaTime; 
-            _controller.Move(movement * speed * Time.deltaTime);
-        }
-    }
 
-    public void PlayerCanMove(bool value)
-    {
-        canMove = value;
+        //actual movement
+        movement.y -= gravity * 9 * Time.deltaTime; 
+        _controller.Move(movement * speed * Time.deltaTime);
+
+        }
     }
 }
