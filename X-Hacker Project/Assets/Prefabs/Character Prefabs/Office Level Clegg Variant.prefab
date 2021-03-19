@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5043027534154373828
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 2c8d0eb4922052b4a913847879881573, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.4660087
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2c8d0eb4922052b4a913847879881573, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.8261914
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2c8d0eb4922052b4a913847879881573, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.41236782
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2c8d0eb4922052b4a913847879881573, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2c8d0eb4922052b4a913847879881573, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9685511
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2c8d0eb4922052b4a913847879881573, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2c8d0eb4922052b4a913847879881573, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.24881482
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2c8d0eb4922052b4a913847879881573, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2c8d0eb4922052b4a913847879881573, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2c8d0eb4922052b4a913847879881573, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 151.185
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2c8d0eb4922052b4a913847879881573, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 2c8d0eb4922052b4a913847879881573, type: 3}
+      propertyPath: m_Materials.Array.data[8]
+      value: 
+      objectReference: {fileID: 2100000, guid: 48830e96921812c4a92da927ed6af0ba, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 2c8d0eb4922052b4a913847879881573, type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea2dea0f2d75a2847a008e19e55c4a3e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 2c8d0eb4922052b4a913847879881573, type: 3}
+      propertyPath: m_Materials.Array.data[7]
+      value: 
+      objectReference: {fileID: 2100000, guid: ccd0a94c25e15b0489558705c80a1bc1, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 2c8d0eb4922052b4a913847879881573, type: 3}
+      propertyPath: m_Materials.Array.data[9]
+      value: 
+      objectReference: {fileID: 2100000, guid: 088a80d274864bf4c8cfb20c2dbc6e41, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 2c8d0eb4922052b4a913847879881573, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: c5b7896099b618f42b09a5cc9294bd01, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 2c8d0eb4922052b4a913847879881573, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c0316c155b5addc4bbf803bd66d556e7, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 2c8d0eb4922052b4a913847879881573, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: ccd0a94c25e15b0489558705c80a1bc1, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 2c8d0eb4922052b4a913847879881573, type: 3}
+      propertyPath: m_Materials.Array.data[4]
+      value: 
+      objectReference: {fileID: 2100000, guid: ea2dea0f2d75a2847a008e19e55c4a3e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 2c8d0eb4922052b4a913847879881573, type: 3}
+      propertyPath: m_Materials.Array.data[5]
+      value: 
+      objectReference: {fileID: 2100000, guid: f21581d2747357d4097ea7930f6393b4, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 2c8d0eb4922052b4a913847879881573, type: 3}
+      propertyPath: m_Materials.Array.data[6]
+      value: 
+      objectReference: {fileID: 2100000, guid: ccd0a94c25e15b0489558705c80a1bc1, type: 2}
+    - target: {fileID: 919132149155446097, guid: 2c8d0eb4922052b4a913847879881573, type: 3}
+      propertyPath: m_Name
+      value: Office Level Clegg
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2c8d0eb4922052b4a913847879881573, type: 3}
