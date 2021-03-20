@@ -66,10 +66,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Refraction: 0
-    - Scratch_Strength: 0.02
-    - Smoothness: 0.25
+    - Scratch_Strength: 0.03
+    - Smoothness: 0.87
     - Strong_Tint: 0
-    - Transparency: 0.56
+    - Transparency: 0.32
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
