@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cbd07399d02f254fbe46ace76a6c346, type: 3}
-  m_Name: Jerry 0-2
+  m_Name: Jerry 0-1
   m_EditorClassIdentifier: 
-  description: You should probably go have a word with HR, down in the room passed
-    the water cooler and the conference room.
+  description: As employee of the month 42 times running, I've gotta say, I'm not
+    impressed. And I don't feel comfortable letting you into your office.
   dialogueEvent:
     m_PersistentCalls:
       m_Calls: []

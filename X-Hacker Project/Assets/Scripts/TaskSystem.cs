@@ -2,7 +2,6 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.UI;
 
 [RequireComponent(typeof(TextMeshProUGUI))]
 public class TaskSystem : MonoBehaviour
@@ -15,7 +14,7 @@ public class TaskSystem : MonoBehaviour
     private int _totalTasks;
     private int _completedTasks;
 
-    public void Start()
+    public void OnEnable()
     {
         _taskText = GetComponent<TextMeshProUGUI>();
         foreach (var t in taskList)

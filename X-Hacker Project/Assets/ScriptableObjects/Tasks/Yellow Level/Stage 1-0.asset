@@ -9,11 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cbd07399d02f254fbe46ace76a6c346, type: 3}
-  m_Name: Jerry 0-2
+  m_Script: {fileID: 11500000, guid: 5fd5e16d9df536c4abee8425711ab0d6, type: 3}
+  m_Name: Stage 1-0
   m_EditorClassIdentifier: 
-  description: You should probably go have a word with HR, down in the room passed
-    the water cooler and the conference room.
-  dialogueEvent:
-    m_PersistentCalls:
-      m_Calls: []
+  description: Okay, I guess I need to go to HR.
+  completedSteps: 0
+  totalSteps: 1
+  complete: 0
