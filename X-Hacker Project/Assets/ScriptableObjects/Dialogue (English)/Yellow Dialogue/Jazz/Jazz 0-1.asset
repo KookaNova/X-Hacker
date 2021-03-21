@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cbd07399d02f254fbe46ace76a6c346, type: 3}
-  m_Name: FollowTest
+  m_Name: Jazz 0-1
   m_EditorClassIdentifier: 
-  description: Quest Complete. I want to follow you.
+  description: Oh Jerry sent you in here... Yeah, he's pretty serious about attendance
+    lately. I'll get him to let you into your office.
   dialogueEvent:
     m_PersistentCalls:
       m_Calls: []
