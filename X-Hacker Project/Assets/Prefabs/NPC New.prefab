@@ -405,6 +405,7 @@ GameObject:
   - component: {fileID: 209588199045515756}
   - component: {fileID: 7413306571498664830}
   - component: {fileID: 4905040547567788857}
+  - component: {fileID: 552989173416606794}
   m_Layer: 14
   m_Name: NPC New
   m_TagString: Untagged
@@ -426,7 +427,6 @@ Transform:
   - {fileID: 4558374304852571882}
   - {fileID: 4517233579915479105}
   - {fileID: 4338672156653582187}
-  - {fileID: 2259337464754722260}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -38.242, z: 0}
@@ -439,12 +439,12 @@ NavMeshAgent:
   m_GameObject: {fileID: 4558374303253184106}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.66
+  m_Radius: 0.75
   m_Speed: 3.5
   m_Acceleration: 8
   avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 2.3
+  m_AngularSpeed: 500
+  m_StoppingDistance: 2.5
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
@@ -478,7 +478,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb72b5b400cb2a74091bde14a8eee8c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentState: 0
   finalDestination: {fileID: 0}
+  travelDestinations: []
+--- !u!65 &552989173416606794
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4558374303253184106}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.8115802, z: 0.62457865}
+  m_Center: {x: -3.4659643e-11, y: 0.9082215, z: -0.009752245}
 --- !u!1 &4558374304852571881
 GameObject:
   m_ObjectHideFlags: 0
@@ -828,85 +843,3 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!1 &8965401636349248233
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2259337464754722260}
-  - component: {fileID: 8750760379775996358}
-  - component: {fileID: 3557633136688724285}
-  m_Layer: 17
-  m_Name: Following Enabled
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2259337464754722260
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8965401636349248233}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4558374303253184107}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8750760379775996358
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8965401636349248233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f86a759eb59d7054fb30921037416750, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  fixedUpdateEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  triggerEnterEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4905040547567788857}
-        m_TargetAssemblyTypeName: FollowPlayerBehaviour, Assembly-CSharp
-        m_MethodName: CancelFollow
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  triggerExitEvent:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!136 &3557633136688724285
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8965401636349248233}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 1.53
-  m_Height: 2.7161968
-  m_Direction: 1
-  m_Center: {x: 0, y: 0.8580984, z: 0}

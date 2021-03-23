@@ -3,7 +3,7 @@ using UnityEngine.Events;
 
 public class EventsBehavior : MonoBehaviour
 {
-    public UnityEvent startEvent, fixedUpdateEvent, triggerEnterEvent, triggerExitEvent;
+    public UnityEvent startEvent, fixedUpdateEvent, triggerEnterEvent, triggerExitEvent, colliderEnterEvent, colliderExitEvent;
     
     void Start()
     {
@@ -22,5 +22,11 @@ public class EventsBehavior : MonoBehaviour
     void OnTriggerExit()
     {
         triggerExitEvent.Invoke();
+    }
+    void OnCollisionEnter(Collision other) {
+        colliderEnterEvent.Invoke();
+    }
+    void OnCollisionExit(Collision other) {
+        colliderExitEvent.Invoke();
     }
 }
