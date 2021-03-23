@@ -90,14 +90,12 @@ public class FollowPlayerBehaviour : MonoBehaviour
                 _isFollowing = false;
                 defaultDestination = gameObject.transform;
                 _agent.destination = defaultDestination.position;
-                print("standing");
                 StartCoroutine(StateDelay());
                 break;
 
             case AIState.random:
                 _isLooking = false;
                 _isFollowing = false;
-                print("random");
                 Vector3 randomDirection = Random.insideUnitSphere * walkRadius;
                 randomDirection += transform.position;
                 NavMeshHit hit;
@@ -109,7 +107,6 @@ public class FollowPlayerBehaviour : MonoBehaviour
                 break;
 
             case AIState.following:
-                print("following");
                 _isFollowing = true;
                 StartCoroutine(StateDelay());
                 break;
@@ -117,14 +114,12 @@ public class FollowPlayerBehaviour : MonoBehaviour
             case AIState.traveling:
                 _isFollowing = false;
                 _agent.destination = travelDestinations[currentTravelDestination].position;
-                print("traveling");
                 StartCoroutine(StateDelay());
 
                 break;
 
             case AIState.finalPlace:
                 _isFollowing = false;
-                print("traveling");
                 _agent.destination = finalDestination.position;
                 StartCoroutine(StateDelay());
 
