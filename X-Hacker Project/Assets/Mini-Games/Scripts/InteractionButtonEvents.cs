@@ -8,7 +8,7 @@ public class InteractionButtonEvents : MonoBehaviour
     public UnityEvent interactionButtonEvent;
     void Update()
     {
-        if(Input.GetKey(KeyCode.E))
+        if(Input.GetKeyDown(KeyCode.E))
         {
             interactionButtonEvent.Invoke();
         }

@@ -1,23 +1,68 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
 public class FollowPlayerBehaviour : MonoBehaviour
 {
+    public enum AIState{
+        standing,
+        random,
+        following,
+        traveling,
+        finalPlace
+    };
+
+    [Tooltip("Indicates the current action of the AI.")]
+    public AIState currentState = AIState.standing;
+    private AIState previousState;
     [Tooltip("An empty gameobject should be placed here to give the character a transform to travel to once they've reached their destination")]
     public Transform finalDestination;
+    public List<Transform> travelDestinations;
+    public int currentTravelDestination;
     private NavMeshAgent _agent;
     private Transform followingDestination, defaultDestination;
     private bool _isLooking = false, _isFollowing = false;
+    private float walkRadius = 10;
 
     public void Awake() {
+        
         _agent = GetComponent<NavMeshAgent>();
         defaultDestination = gameObject.transform;
         _agent.SetDestination(defaultDestination.position);
+        UpdateState();
     }
-    
+
+    public void ChangeState(string newState){
+        switch(newState){
+            case "standing":
+                currentState = AIState.standing;
+                UpdateState();
+                break;
+            case "random":
+                currentState = AIState.random;
+                UpdateState();
+                break;
+            case "following":
+                currentState = AIState.following;
+                UpdateState();
+                break;
+            case "traveling":
+                currentState = AIState.traveling;
+                UpdateState();
+                break;
+            case "finalPlace":
+                currentState = AIState.finalPlace;
+                UpdateState();
+                break;
+        }
+    }
+
+    public void ChangeTravelDestination(int destinationInt){
+        currentTravelDestination = destinationInt;
+    }
     private void OnTriggerEnter(Collider obj) {
+        if(currentState == AIState.following || currentState == AIState.standing)
         followingDestination = obj.gameObject.transform;
         _isLooking = true;
     }
@@ -25,8 +70,9 @@ public class FollowPlayerBehaviour : MonoBehaviour
         _isLooking = false;
     }
     public void Update() {
-        if(_isLooking == true){
-            //NPC looks at target with X rotation locked.
+
+        if (_isLooking == true){
+            //NPC looks at target with X rotation locked. Simple lookat command fails here.
             var xRot = transform.rotation.eulerAngles.x;
             transform.LookAt(followingDestination);
             var rot = transform.rotation.eulerAngles;
@@ -34,19 +80,64 @@ public class FollowPlayerBehaviour : MonoBehaviour
             
             transform.rotation = Quaternion.Euler(rot);
         }
+        if(previousState != currentState){
+            StopCoroutine(StateDelay());
+            UpdateState();
+        }
         if(_isFollowing == true){
             _agent.destination = followingDestination.position;
         }
+
+        
     }
 
-    public void FollowCommand(){
-        _isFollowing = true;
-        _isLooking = false;
+    private void UpdateState(){
+        previousState = currentState;
+        switch(currentState){
+            case AIState.standing:
+                _isFollowing = false;
+                defaultDestination = gameObject.transform;
+                _agent.destination = defaultDestination.position;
+                StartCoroutine(StateDelay());
+                break;
+
+            case AIState.random:
+                _isLooking = false;
+                _isFollowing = false;
+                Vector3 randomDirection = Random.insideUnitSphere * walkRadius;
+                randomDirection += transform.position;
+                NavMeshHit hit;
+                NavMesh.SamplePosition(randomDirection, out hit, walkRadius, 1);
+                Vector3 finalPosition = hit.position;
+                _agent.destination = finalPosition;
+
+                StartCoroutine(StateDelay());
+                break;
+
+            case AIState.following:
+                _isFollowing = true;
+                StartCoroutine(StateDelay());
+                break;
+            
+            case AIState.traveling:
+                _isFollowing = false;
+                _isLooking = false;
+                _agent.destination = travelDestinations[currentTravelDestination].position;
+                StartCoroutine(StateDelay());
+
+                break;
+
+            case AIState.finalPlace:
+                _isFollowing = false;
+                _agent.destination = finalDestination.position;
+                StartCoroutine(StateDelay());
+
+                break;
+
+        }
     }
-    public void CancelFollow(){
-        Debug.Log("Cancel Follow");
-        _agent.destination = finalDestination.position;
-        _isFollowing = false;
-        _isLooking = true;
+    private IEnumerator StateDelay(){
+        yield return new WaitForSeconds(Random.Range(3f, 10f));
+        UpdateState();
     }
 }

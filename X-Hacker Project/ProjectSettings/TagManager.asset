@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - GameManager
+  - NPC
+  - AI Cancel
   layers:
   - Default
   - TransparentFX
@@ -22,8 +24,8 @@ TagManager:
   - Device Interaction
   - NPC
   - Structure
-  - NPC Only Triggers
-  - NPC Interactions
+  - 
+  - 
   - 
   - 
   - 
