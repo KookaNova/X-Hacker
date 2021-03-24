@@ -37,21 +37,29 @@ public class FollowPlayerBehaviour : MonoBehaviour
         switch(newState){
             case "standing":
                 currentState = AIState.standing;
+                UpdateState();
                 break;
             case "random":
                 currentState = AIState.random;
+                UpdateState();
                 break;
             case "following":
                 currentState = AIState.following;
+                UpdateState();
                 break;
-            case "travelling":
+            case "traveling":
                 currentState = AIState.traveling;
+                UpdateState();
                 break;
             case "finalPlace":
                 currentState = AIState.finalPlace;
+                UpdateState();
                 break;
         }
-        
+    }
+
+    public void ChangeTravelDestination(int destinationInt){
+        currentTravelDestination = destinationInt;
     }
     private void OnTriggerEnter(Collider obj) {
         if(currentState == AIState.following || currentState == AIState.standing)
@@ -113,6 +121,7 @@ public class FollowPlayerBehaviour : MonoBehaviour
             
             case AIState.traveling:
                 _isFollowing = false;
+                _isLooking = false;
                 _agent.destination = travelDestinations[currentTravelDestination].position;
                 StartCoroutine(StateDelay());
 

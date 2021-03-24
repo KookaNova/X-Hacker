@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fd5e16d9df536c4abee8425711ab0d6, type: 3}
-  m_Name: Stage 1-0
+  m_Name: Stage 3-1
   m_EditorClassIdentifier: 
-  description: Okay, I guess I need to go to HR.
+  description: If we're ever unsure about something, we can always confirm with HR
+    the correct course of action. I should take Jerry to HR.
   completedSteps: 0
   totalSteps: 1
-  complete: 1
+  complete: 0
