@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cbd07399d02f254fbe46ace76a6c346, type: 3}
-  m_Name: Hunter 1-2
+  m_Name: Jerry 6-2
   m_EditorClassIdentifier: 
-  description: Here, follow me to the computer.
+  description: Yes, I turned off the firewall. It asked me to when I downloaded and
+    ran the .exe file the link gave me.
   dialogueEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: e8d59694c6447b748b739fbc204df5b1, type: 2}
+      - m_Target: {fileID: 11400000, guid: a7e9a873f51a6074aa57a399d381c0ea, type: 2}
         m_TargetAssemblyTypeName: GameAction, Assembly-CSharp
         m_MethodName: Raise
         m_Mode: 1
@@ -28,7 +29,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: 236be99ef1b02e34088b5de64342926e, type: 2}
+      - m_Target: {fileID: 11400000, guid: e8d59694c6447b748b739fbc204df5b1, type: 2}
         m_TargetAssemblyTypeName: GameAction, Assembly-CSharp
         m_MethodName: Raise
         m_Mode: 1

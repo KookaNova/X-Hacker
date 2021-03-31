@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cbd07399d02f254fbe46ace76a6c346, type: 3}
-  m_Name: Jerry 3-0
+  m_Name: Jerry 6-0
   m_EditorClassIdentifier: 
-  description: Um... so I actually need a second eye on something.
+  description: Okay, so I may have ended up clicking that link earlier...
   dialogueEvent:
     m_PersistentCalls:
       m_Calls: []

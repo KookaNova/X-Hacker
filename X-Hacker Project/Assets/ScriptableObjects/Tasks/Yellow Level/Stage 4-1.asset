@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Stage 4-1
   m_EditorClassIdentifier: 
   description: Check the computers that haven't already checked.
-  completedSteps: 0
-  totalSteps: 9
+  completedSteps: 1
+  totalSteps: 3
   complete: 0
