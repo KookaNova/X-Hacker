@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Stage 4-2
   m_EditorClassIdentifier: 
   description: Flag all errors in websites and emails.
-  completedSteps: 0
-  totalSteps: 9
+  completedSteps: 7
+  totalSteps: 10
   complete: 0
