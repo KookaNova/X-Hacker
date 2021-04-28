@@ -12541,6 +12541,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5272102927401370779, guid: c224ce354dab06046acd86303f7728f5, type: 3}
+      propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5899523846503441483, guid: c224ce354dab06046acd86303f7728f5, type: 3}
       propertyPath: m_text
       value: You taught everyone in the office about safety and the dangers of phishing,
@@ -17178,6 +17182,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 2312295499815856800, guid: 167acb582c10c9649a6b940db723105f, type: 3}
   m_PrefabInstance: {fileID: 303558039}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &579027758 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3616487571650019158, guid: e581241e2b2713a4babce9852e23aef9, type: 3}
+  m_PrefabInstance: {fileID: 1605203009}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &579228745
 PrefabInstance:
@@ -27648,7 +27657,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 11400000, guid: 3466e4f6c7e104f4f8ca9b34b4d3f931, type: 2}
         m_TargetAssemblyTypeName: TaskDataSO, Assembly-CSharp
@@ -27674,7 +27683,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 532156876}
+      - m_Target: {fileID: 1045222943}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -31037,6 +31046,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb8c4c6d88c27d44e98dc5aa5df0b626, type: 3}
+--- !u!1 &1045222943 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3616487572920664189, guid: e581241e2b2713a4babce9852e23aef9, type: 3}
+  m_PrefabInstance: {fileID: 1605203009}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1045353161
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48591,7 +48605,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3616487571465734897, guid: e581241e2b2713a4babce9852e23aef9, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3616487571476189704, guid: e581241e2b2713a4babce9852e23aef9, type: 3}
       propertyPath: m_text
@@ -48625,13 +48639,17 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3616487572197832374, guid: e581241e2b2713a4babce9852e23aef9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3616487572316599326, guid: e581241e2b2713a4babce9852e23aef9, type: 3}
       propertyPath: m_Name
       value: Server Reset
       objectReference: {fileID: 0}
     - target: {fileID: 3616487572316599326, guid: e581241e2b2713a4babce9852e23aef9, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3616487572316599327, guid: e581241e2b2713a4babce9852e23aef9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -48703,6 +48721,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Backup Logs
       objectReference: {fileID: 0}
+    - target: {fileID: 7541867437759233457, guid: e581241e2b2713a4babce9852e23aef9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e581241e2b2713a4babce9852e23aef9, type: 3}
 --- !u!224 &1605203010 stripped
@@ -48713,11 +48735,6 @@ RectTransform:
 --- !u!1 &1605203011 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3616487571465734897, guid: e581241e2b2713a4babce9852e23aef9, type: 3}
-  m_PrefabInstance: {fileID: 1605203009}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1605203012 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3616487572316599326, guid: e581241e2b2713a4babce9852e23aef9, type: 3}
   m_PrefabInstance: {fileID: 1605203009}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1609301948
@@ -58177,7 +58194,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1605203012}
+      - m_Target: {fileID: 579027758}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
