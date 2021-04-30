@@ -5,21 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour
 {
-    public int loadScene;
+    public int[] loadScene;
     public int currentScene;
 
     public UnityEvent levelLoadingEvent, levelLoadingWhileEvent, levelLoadingWhile90PercentEvent;
 
     public AsyncOperation sceneLoad;
 
-    public void LoadLevel()
+    public void LoadLevel(int scene)
     {
-        StartCoroutine(asyncLoad());
+        StartCoroutine(asyncLoad(scene));
     }
 
-    private IEnumerator asyncLoad()
+    private IEnumerator asyncLoad(int scene)
     {
-        sceneLoad = SceneManager.LoadSceneAsync(loadScene);
+        sceneLoad = SceneManager.LoadSceneAsync(scene);
         sceneLoad.allowSceneActivation = false;
         levelLoadingEvent.Invoke();
         

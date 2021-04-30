@@ -1859,7 +1859,7 @@ MonoBehaviour:
       - m_Target: {fileID: 830412782}
         m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
         m_MethodName: LoadLevel
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -39686,6 +39686,10 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 2547964179328325221, guid: c224ce354dab06046acd86303f7728f5, type: 3}
+      propertyPath: loadScene.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2547964179681105826, guid: c224ce354dab06046acd86303f7728f5, type: 3}
       propertyPath: handlerEvent.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -39842,6 +39846,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 483349025}
     m_Modifications:
+    - target: {fileID: 921214676, guid: 2b83659754b8fb6499890fcceb0d0a35, type: 3}
+      propertyPath: loadScene.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1171550192, guid: 2b83659754b8fb6499890fcceb0d0a35, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_FloatArgument
       value: 1210
@@ -39888,7 +39896,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1269511878, guid: 2b83659754b8fb6499890fcceb0d0a35, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1269511878, guid: 2b83659754b8fb6499890fcceb0d0a35, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -41112,6 +41120,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8962117594571649501, guid: 7cd03f0e8d4a48d4fb491ba9c892badf, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8962117594769482263, guid: 7cd03f0e8d4a48d4fb491ba9c892badf, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -86
@@ -41215,6 +41227,10 @@ PrefabInstance:
     - target: {fileID: 8962117595547781106, guid: 7cd03f0e8d4a48d4fb491ba9c892badf, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 8962117595547781107, guid: 7cd03f0e8d4a48d4fb491ba9c892badf, type: 3}
+      propertyPath: loadScene.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8962117595765425712, guid: 7cd03f0e8d4a48d4fb491ba9c892badf, type: 3}
       propertyPath: m_AnchoredPosition.x

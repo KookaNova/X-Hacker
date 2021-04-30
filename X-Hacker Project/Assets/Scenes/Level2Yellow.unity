@@ -1081,6 +1081,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 921214676, guid: 2b83659754b8fb6499890fcceb0d0a35, type: 3}
+      propertyPath: loadScene.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 921214676, guid: 2b83659754b8fb6499890fcceb0d0a35, type: 3}
+      propertyPath: currentScene
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1269511878, guid: 2b83659754b8fb6499890fcceb0d0a35, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2902410879090464224, guid: 2b83659754b8fb6499890fcceb0d0a35, type: 3}
       propertyPath: m_Name
       value: Pause Menu
@@ -10859,7 +10871,7 @@ Transform:
   m_Children:
   - {fileID: 1903176370}
   m_Father: {fileID: 1357738728}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &358970193
 MonoBehaviour:
@@ -12460,6 +12472,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2547964178486206539, guid: c224ce354dab06046acd86303f7728f5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2547964179328325211, guid: c224ce354dab06046acd86303f7728f5, type: 3}
       propertyPath: m_Name
       value: Win Menu
@@ -14989,7 +15005,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6769814750466917551, guid: 87f0b5b72746f1042a2d5733350f052e, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6769814750466917551, guid: 87f0b5b72746f1042a2d5733350f052e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -17956,6 +17972,10 @@ PrefabInstance:
     - target: {fileID: 8962117595547781106, guid: 7cd03f0e8d4a48d4fb491ba9c892badf, type: 3}
       propertyPath: m_LocalScale.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8962117595547781107, guid: 7cd03f0e8d4a48d4fb491ba9c892badf, type: 3}
+      propertyPath: currentScene
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cd03f0e8d4a48d4fb491ba9c892badf, type: 3}
@@ -39652,7 +39672,7 @@ Transform:
   m_Children:
   - {fileID: 322175801}
   m_Father: {fileID: 1357738728}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1330326084
 MonoBehaviour:
@@ -49031,6 +49051,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 25.7
       objectReference: {fileID: 0}
+    - target: {fileID: 3616487571650019158, guid: e581241e2b2713a4babce9852e23aef9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3616487571838792724, guid: e581241e2b2713a4babce9852e23aef9, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -55689,7 +55713,7 @@ Transform:
   m_Children:
   - {fileID: 1176869571}
   m_Father: {fileID: 1357738728}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1857503454
 MonoBehaviour:
