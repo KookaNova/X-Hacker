@@ -1332,7 +1332,7 @@ MonoBehaviour:
       - m_Target: {fileID: 8962117595547781107}
         m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
         m_MethodName: LoadLevel
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1525,7 +1525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14a7746af4fd8164b9c492b5f6e35755, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadScene: 0
+  loadScene: 
   currentScene: 1
   levelLoadingEvent:
     m_PersistentCalls:

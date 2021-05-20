@@ -18821,6 +18821,10 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 2547964179328325221, guid: c224ce354dab06046acd86303f7728f5, type: 3}
+      propertyPath: currentScene
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c224ce354dab06046acd86303f7728f5, type: 3}
 --- !u!1001 &844661626
@@ -41484,6 +41488,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 921214676, guid: 2b83659754b8fb6499890fcceb0d0a35, type: 3}
+      propertyPath: currentScene
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2902410879090464224, guid: 2b83659754b8fb6499890fcceb0d0a35, type: 3}
       propertyPath: m_Name
       value: Pause Menu
